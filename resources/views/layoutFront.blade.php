@@ -336,7 +336,7 @@
 					<img data-u="caption" data-t="7" style="position:absolute;top:100px;left:300px;width:63px;height:77px;z-index:0;" src="{{URL::asset('/img/present/02/hand.png')}}" />
 					<img data-u="caption" data-t="8" style="position:absolute;top:-44px;left:255px;width:75px;height:20px;z-index:0;" src="{{URL::asset('/img/present/02/swipe-arrow.png')}}" />
 				</div>
-				<a href="http://www.jssor.com/help/slideshow-transitions.html" target="_blank" style="display:block; position:absolute;top:22px;left:600px;width:320px;height:36px;z-index:0;font-size:22px;color:#ffffff;line-height:36px;">Mas de 30 Templos coloniales</a>
+				<a href="http://www.jssor.com/help/slideshow-transitions.html" target="_blank" style="display:block; position:absolute;top:22px;left:600px;width:320px;height:36px;z-index:0;font-size:22px;color:#ffffff;line-height:36px;">Nos encontramos a su disponiblidad</a>
 			</div>
 			<div data-b="1" data-p="170.00">
 				<img data-u="image" src="{{URL::asset('/img/present/02.jpg')}}" />
@@ -500,8 +500,8 @@
                                     <div class="c-icon-wrapper">
                                         <div class="c-content-line-icon c-theme c-icon-screen-chart"></div>
                                     </div>
-                                    <h3 class="c-font-uppercase c-font-bold c-title">APLICAIONES WEB</h3>
-                                    <p>Desarrollo de paginas dinamicas</p>
+                                    <h3 class="c-font-uppercase c-font-bold c-title">APLICACIONES WEB</h3>
+                                    <p>Desarrollo de páginas dinámicas</p>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6">
@@ -535,7 +535,7 @@
                                 <div class="c-content-v-center c-theme-bg wow bounceInUp" data-wow-delay1="2s" data-height="height">
                                     <div class="c-wrapper">
                                         <div class="c-body c-padding-20 c-center">
-                                            <h3 class="c-font-19 c-line-height-28 c-font-uppercase c-font-white c-font-bold">Los lugares turisticos mas vicitados </h3>
+                                            <h3 class="c-font-19 c-line-height-28 c-font-uppercase c-font-white c-font-bold">Los lugares turisticos más visitados </h3>
                                         </div>
                                     </div>
                                 </div>
@@ -561,7 +561,7 @@
                     <div class="c-content-client-logos-slider-1" data-slider="owl">
   
                         <div class="c-content-title-1">
-                            <h3 class="c-center c-font-uppercase c-font-bold">Paginas Desarrolladas</h3>
+                            <h3 class="c-center c-font-uppercase c-font-bold">NUESTROS CLIENTES</h3>
                             <div class="c-line-center c-theme-bg"></div>
                         </div>
 
@@ -573,22 +573,22 @@
 						background:-ms-linear-gradient(top, #e7e8e8, #e7e8e8);">                           			 
                       		
 							 <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
-                                <a href="#">
+                                <a href="http://gestelcomunicaciones.com" target="_blank">
                                     <img src="{{URL::asset('/img/content/client-logos/logo1.jpg')}}" alt="" />
                                 </a>
                             </div>
                             <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
-                                <a href="#">
+                                <a href="http://draapurimac.spaziour.com/" target="_blank">
                                     <img src="{{URL::asset('/img/content/client-logos/logo2.jpg')}}" alt="" />
                                 </a>
                             </div>
                             <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
-                                <a href="#">
+                                <a href="http://sbpabancay.gob.pe" target="_blank">
                                     <img src="{{URL::asset('/img/content/client-logos/logo3.jpg')}}" alt="" />
                                 </a>
                             </div>
                             <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
-                                <a href="#">
+                                <a href="http://radiomautri.com/" target="_blank">
                                     <img src="{{URL::asset('/img/content/client-logos/logo4.jpg')}}" alt="" />
                                 </a>
                             </div>
