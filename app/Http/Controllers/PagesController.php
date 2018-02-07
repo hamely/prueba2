@@ -139,4 +139,39 @@ class PagesController extends Controller
 
     }
 
+     public function  disenioWeb()
+     {
+
+     		return view('inicio.disenoWeb');
+
+     }
+      public function  disenioLogotipos()
+     {
+
+     		return view('inicio.disenioLogotipos');
+
+     }
+
+     public function  trabajos()
+     {
+
+     		return view('inicio.trabajos');
+
+     }
+
+      public function  clientes()
+     {
+
+     		return view('inicio.clientes');
+
+     }
+
+      public function  blog()
+     {
+
+     		return view('inicio.blog');
+
+     }
+
+
 }

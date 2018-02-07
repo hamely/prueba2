@@ -190,6 +190,8 @@
 		$(window).bind("resize", ScaleSlider);
 		$(window).bind("orientationchange", ScaleSlider);
 	});
+
+
 </script>
 <style>
 .jssorl-009-spin img {
@@ -269,40 +271,55 @@
                                     </a>
                                     
                                 </li>
-                                <li class="c-menu-type-classic">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Recorridos Virtuales
-                                        <span class="c-arrow c-toggler"></span>
-                                    </a>
-                                    <ul class="dropdown-menu c-menu-type-classic c-pull-left">
-                                        <li class="dropdown-submenu" class="{{activeMenu('visitarTemplos')}}">
-                                          <a href="{{route('visitarTemplos')}}">Templos Coloniales
-                                                <span class="c-arrow c-toggler"></span>
-                                            </a>
-                                            
-                                        </li>
-                                        
-                                    </ul>
-                                </li>
-
                                 <li class="{{ activeMenu('nosotros')  }}">
                                     <a href="{{ route('nosotros') }}" class="c-link dropdown-toggle">Nosotros
                                         <span class="c-arrow c-toggler"></span>
                                     </a>
                                     
                                 </li>
-                                
+                                <li id="sunMenuServicios">
+                                    <a href="javascript:;" class="c-link dropdown-toggle">Servicios
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                    <ul class="dropdown-menu c-menu-type-classic c-pull-left">
+                                        <li class="dropdown-submenu" id="subMenuS">
+                                            <a href="{{route('disenioWeb')}}">DIseños Paginas Web
+                                                <span class="c-arrow c-toggler"></span>
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-submenu" id="subMenuS">
+                                            <a href="{{route('disenioLogotipos')}}">Diseños de logotipos
+                                                <span class="c-arrow c-toggler"></span>
+                                            </a>
+                                        </li>
+                                       
+                                    </ul>
+                                </li>
+                                <li class="{{ activeMenu('trabajos')  }}">
+                                    <a href="{{ route('trabajos') }}" class="c-link dropdown-toggle">Trabajos
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                    
+                                </li>
+                                <li class="{{ activeMenu('clientes')  }}">
+                                    <a href="{{ route('clientes') }}" class="c-link dropdown-toggle">Clientes
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                    
+                                </li>
+                                 <li class="{{ activeMenu('blog')  }}">
+                                    <a href="{{ route('blog') }}" class="c-link dropdown-toggle">Blog
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                    
+                                </li>
                                  <li class= "{{ activeMenu('mensajes/create') }}" >
                                     <a href="{{ route('mensajes.create')}}" class="c-link dropdown-toggle">Contactos
                                         <span class="c-arrow c-toggler"></span>
                                     </a>
                                     
                                 </li>
-                                
-                                <li class= "{{ activeMenu('login') }}">
-                                    <a href="{{ URL::to('login') }}" class="c-btn-border-opacity-04 c-btn btn-no-focus c-btn-header btn btn-sm c-btn-border-1x c-btn-dark c-btn-circle c-btn-uppercase c-btn-sbold">
-                                        <i class="icon-user"></i>Login</a>
-                                </li> 
-
+                             
                             </ul>
                         </nav>
                     </div>

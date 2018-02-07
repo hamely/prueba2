@@ -24,6 +24,12 @@ Route::get('test' , function(){
 Route::get('nosotros/',['as' => 'nosotros', 'uses' => 'PagesController@nosotros']);
 Route::get('/',['as' => 'inicio','uses' => 'PagesController@inicio']);
 Route::get('visitarTemplos/',['as' => 'visitarTemplos', 'uses' => 'PagesController@visitarTemplos']);
+Route::get('disenio-web/',['as' => 'disenioWeb', 'uses' => 'PagesController@disenioWeb']);
+Route::get('disenio-de-logotipos/',['as' => 'disenioLogotipos', 'uses' => 'PagesController@disenioWeb']);
+Route::get('trabajos/',['as' => 'trabajos', 'uses' => 'PagesController@trabajos']);
+Route::get('clientes/',['as' => 'clientes', 'uses' => 'PagesController@clientes']);
+Route::get('blog/',['as' => 'blog', 'uses' => 'PagesController@blog']);
+
 
 //para temlos templos 
 Route::get('buscarLugares/' ,  ['as' => 'templo' , 'uses' => 'PagesController@buscarLugares' ]);
