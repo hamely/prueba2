@@ -224,6 +224,8 @@
 .jssora051:hover {opacity:.8;}
 .jssora051.jssora051dn {opacity:.5;}
 .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+
+.border-button:hover { border-width: 10px; }
 </style>
 
  <body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fullscreen">
@@ -232,7 +234,7 @@
 	{
 		return request()->is($url) ? 'c-active' : '';
 	} ?>
-        <header class="c-layout-header c-layout-header-4 c-bordered c-layout-header-default-mobile c-header-transparent-dark" data-minimize-offset="80" style="margin-top: -10px;background:#2B3D54;color:#004353">
+        <header class="c-layout-header c-layout-header-4 c-bordered c-layout-header-default-mobile c-header-transparent-dark" data-minimize-offset="80" style="margin-top: -10px;background:#003346;color:#004353">
             <div class="c-navbar">
                 <div class="container-fluid">
                     <!-- BEGIN: BRAND -->
@@ -556,46 +558,76 @@
             <div class="c-content-box c-size-md c-bg-white">
                 <div class="container">
      
-                    <div class="c-content-client-logos-slider-1  c-bordered" data-slider="owl">
+                    <div class="c-content-client-logos-slider-1" data-slider="owl">
   
                         <div class="c-content-title-1">
                             <h3 class="c-center c-font-uppercase c-font-bold">Paginas Desarrolladas</h3>
                             <div class="c-line-center c-theme-bg"></div>
                         </div>
 
-                        <div class="owl-carousel owl-theme c-theme owl-bordered1 c-owl-nav-center" data-items="6" data-desktop-items="4" data-desktop-small-items="3" data-tablet-items="3" data-mobile-small-items="2" data-slide-speed="5000" data-rtl="true">
-                            <div class="item">
-										<a href="#">
-											<img src="{{URL::asset('/img/content/client-logos/client1.jpg')}}" alt="" />
-										</a>
-									</div>
-									<div class="item">
-										<a href="#">
-											<img src="{{URL::asset('/img/content/client-logos/client2.jpg')}}" alt="" />
-										</a>
-									</div>
-									<div class="item">
-										<a href="#">
-											<img src="{{URL::asset('/img/content/client-logos/client3.jpg')}}" alt="" />
-										</a>
-									</div>
-									<div class="item">
-										<a href="#">
-											<img src="{{URL::asset('/img/content/client-logos/client4.jpg')}}" alt="" />
-										</a>
-									</div>
-								
-									<div class="item">
-										<a href="#">
-											<img src="{{URL::asset('/img/content/client-logos/client3.jpg')}}" alt="" />
-										</a>
-									</div>
-								
-									<div class="item">
-										<a href="#">
-											<img src="{{URL::asset('/img/content/client-logos/client2.jpg')}}" alt="" />
-										</a>
-									</div>
+ <div class="owl-carousel owl-theme c-theme c-owl-nav-center" data-items="5" data-desktop-items="4" data-desktop-small-items="3" data-tablet-items="3" data-mobile-small-items="1" data-auto-play="false" data-rtl="false" data-slide-speed="5000"
+                        data-auto-play-hover-pause="true" style="background:linear-gradient(top, #e7e8e8, #e7e8e8);
+						background:-webkit-linear-gradient(top, #e7e8e8, #e7e8e8);
+						background:-moz-linear-gradient(top, #e7e8e8, #e7e8e8);
+						background:-o-linear-gradient(top, #e7e8e8, #e7e8e8);
+						background:-ms-linear-gradient(top, #e7e8e8, #e7e8e8);">                           			 
+                      		
+							 <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
+                                <a href="#">
+                                    <img src="{{URL::asset('/img/content/client-logos/logo1.jpg')}}" alt="" />
+                                </a>
+                            </div>
+                            <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
+                                <a href="#">
+                                    <img src="{{URL::asset('/img/content/client-logos/logo2.jpg')}}" alt="" />
+                                </a>
+                            </div>
+                            <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
+                                <a href="#">
+                                    <img src="{{URL::asset('/img/content/client-logos/logo3.jpg')}}" alt="" />
+                                </a>
+                            </div>
+                            <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
+                                <a href="#">
+                                    <img src="{{URL::asset('/img/content/client-logos/logo4.jpg')}}" alt="" />
+                                </a>
+                            </div>
+                            <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
+                                <a href="#">
+                                    <img src="{{URL::asset('/img/content/client-logos/logo5.jpg')}}" alt="" />
+                                </a>
+                            </div>
+                            <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
+                                <a href="#">
+                                    <img src="{{URL::asset('/img/content/client-logos/logo6.jpg')}}" alt="" />
+                                </a>
+                            </div>
+                            <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
+                                <a href="#">
+                                    <img src="{{URL::asset('/img/content/client-logos/logo7.jpg')}}" alt="" />
+                                </a>
+                            </div>
+                            <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
+                                <a href="#">
+                                    <img src="{{URL::asset('/img/content/client-logos/logo8.jpg')}}" alt="" />
+                                </a>
+                            </div>
+                            <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
+                                <a href="#">
+                                    <img src="{{URL::asset('/img/content/client-logos/logo9.jpg')}}" alt="" />
+                                </a>
+                            </div>
+                            <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
+                                <a href="#">
+                                    <img src="{{URL::asset('/img/content/client-logos/logo10.jpg')}}" alt="" />
+                                </a>
+                            </div>
+                            <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
+                                <a href="#">
+                                    <img src="{{URL::asset('/img/content/client-logos/logo11.jpg')}}" alt="" />
+                                </a>
+                            </div>
+									
 									
 									
                         </div>
