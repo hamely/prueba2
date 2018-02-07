@@ -57,11 +57,11 @@
 
 														<div class="form-group"> 
 															<label  class="col-lg-2 control-label">
-																Comentarios
+																Telefon de Contacto
 															</label>
 															<div class="col-lg-5">
 
-																<input type="text" name="comentario" class="form-control" placeholder="Comentarios">
+																<input type="text" name="comentario" class="form-control" placeholder="Telefon de contacto">
 
 															</div>
 														</div>
