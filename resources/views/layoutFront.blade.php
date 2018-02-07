@@ -336,8 +336,6 @@
             <div class="c-content-box c-size-md c-bg-white">
 	 			 @yield('contenido')
 
-	               
-
             </div>
 		
         </div>
