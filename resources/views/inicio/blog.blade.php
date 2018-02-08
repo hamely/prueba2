@@ -286,7 +286,6 @@
                                     </li>
                                 </ul>
                             </div>
-                            <!-- END: CONTENT/BLOG/BLOG-SIDEBAR-1 -->
                         </div>
                     </div>
                 </div>
