@@ -23,6 +23,7 @@
 	<link href="{{ asset("plugins/revo-slider/css/settings.css")}}" rel="stylesheet" type="text/css" />
 	<link href="{{ asset("plugins/revo-slider/css/layers.css")}}" rel="stylesheet" type="text/css" />
 	<link href="{{ asset("plugins/revo-slider/css/navigation.css")}}" rel="stylesheet" type="text/css" />
+
 	<link href="{{ asset("plugins/cubeportfolio/css/cubeportfolio.min.css")}}" rel="stylesheet" type="text/css" />
 	<link href="{{ asset("plugins/owl-carousel/assets/owl.carousel.css")}}" rel="stylesheet" type="text/css" />
 	<link href="{{ asset("plugins/fancybox/jquery.fancybox.css")}}" rel="stylesheet" type="text/css" />
@@ -174,6 +175,7 @@
 			<script src="{{ asset("plugins/jquery.easing.min.js")}}" type="text/javascript"></script>
 			<script src="{{ asset("plugins/reveal-animate/wow.js")}}" type="text/javascript"></script>
 			<script src="{{ asset("js/scripts/reveal-animate/reveal-animate.js")}}" type="text/javascript"></script>
+            
 			<script src="{{ asset("plugins/revo-slider/js/jquery.themepunch.tools.min.js")}}" type="text/javascript"></script>
 			<script src="{{ asset("plugins/revo-slider/js/jquery.themepunch.revolution.min.js")}}" type="text/javascript"></script>
 			<script src="{{ asset("plugins/revo-slider/js/extensions/revolution.extension.slideanims.min.js")}}" type="text/javascript"></script>

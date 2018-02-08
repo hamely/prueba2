@@ -1,13 +1,12 @@
 @extends('layoutFront')
+@section('headerScrip')
 
-@section('contenido')
-	 <!-- BEGIN: PAGE CONTAINER -->
-        <div class="c-layout-page">
-            <!-- BEGIN: LAYOUT/BREADCRUMBS/BREADCRUMBS-1 -->
-            <div class="c-layout-breadcrumbs-1 c-fonts-uppercase c-fonts-bold">
+@stop
+@section('slider')
+ <div class="c-layout-breadcrumbs-1 c-fonts-uppercase c-fonts-bold c-bordered c-bordered-both" style="background:#ddd;margin-top: 90px;">
                 <div class="container">
                     <div class="c-page-title c-pull-left">
-                        <h3 class="c-font-uppercase c-font-sbold">Masonry Gallery</h3>
+                        <h3 class="c-font-uppercase c-font-sbold">Blog Grid View</h3>
                     </div>
                     <ul class="c-page-breadcrumbs c-theme-nav c-pull-right c-fonts-regular">
                         <li>
@@ -15,266 +14,621 @@
                         </li>
                         <li>/</li>
                         <li>
-                            <a href="page-masonry-gallery.html">Masonry Gallery</a>
+                            <a href="page-blog-grid.html">Blog Grid View</a>
                         </li>
                         <li>/</li>
                         <li class="c-state_active">Jango Components</li>
                     </ul>
                 </div>
             </div>
-            <!-- END: LAYOUT/BREADCRUMBS/BREADCRUMBS-1 -->
-            <!-- BEGIN: PAGE CONTENT -->
-            <div class="c-content-box c-size-md">
-                <div class="container">
-                    <div class="cbp-panel">
-                        <div id="filters-container" class="cbp-l-filters-buttonCenter">
-                            <div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> All
-                                <div class="cbp-filter-counter"></div>
-                            </div>
-                            <div data-filter=".identity" class="cbp-filter-item"> Identity
-                                <div class="cbp-filter-counter"></div>
-                            </div>
-                            <div data-filter=".web-design" class="cbp-filter-item"> Web Design
-                                <div class="cbp-filter-counter"></div>
-                            </div>
-                            <div data-filter=".graphic" class="cbp-filter-item"> Graphic
-                                <div class="cbp-filter-counter"></div>
-                            </div>
-                            <div data-filter=".logos" class="cbp-filter-item"> Logo
-                                <div class="cbp-filter-counter"></div>
-                            </div>
-                            <div data-filter=".logos, .graphic" class="cbp-filter-item"> Logo & Graphic
-                                <div class="cbp-filter-counter"></div>
-                            </div>
-                        </div>
-                        <div id="grid-container" class="cbp cbp-l-grid-masonry-projects">
-                            <div class="cbp-item graphic">
-                                <div class="cbp-caption">
-                                    <div class="cbp-caption-defaultWrap">
-                                    	<img src="{{URL::asset('/img/content/stock/62.jpg')}}" alt="" />
-                                         </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="c-masonry-border"></div>
-                                        <div class="cbp-l-caption-alignCenter">
-                                            <div class="cbp-l-caption-body">
-                                                <a href="ajax/projects/project1.html?test=1" class="cbp-singlePage cbp-l-caption-buttonLeft btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase">Explore</a>
-
-                                                <a href="assets/base/img/content/stock/62.jpg" class="cbp-lightbox cbp-l-caption-buttonRight btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase" data-title="Dashboard<br>by Paul Flavius Nechita">Zoom</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="ajax/projects/project1.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title">BeenTo</a>
-                                <div class="cbp-l-grid-masonry-projects-desc">web design / graphic</div>
-                            </div>
-                            <div class="cbp-item web-design logos">
-                                <div class="cbp-caption">
-                                    <div class="cbp-caption-defaultWrap">
-                                    	<img src="{{URL::asset('/img/content/stock/60.jpg')}}" alt="" />
-                                       </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="c-masonry-border"></div>
-                                        <div class="cbp-l-caption-alignCenter">
-                                            <div class="cbp-l-caption-body">
-                                                <a href="ajax/projects/project2.html" class="cbp-singlePage cbp-l-caption-buttonLeft btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase">Explore</a>
-                                                <a href="assets/base/img/content/stock/60.jpg" class="cbp-lightbox cbp-l-caption-buttonRight btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase" data-title="World Clock Widget<br>by Paul Flavius Nechita">Zoom</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="ajax/projects/project2.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title">World Clock Widget</a>
-                                <div class="cbp-l-grid-masonry-projects-desc">logos / web design</div>
-                            </div>
-                            <div class="cbp-item graphic logos">
-                                <div class="cbp-caption">
-                                    <div class="cbp-caption-defaultWrap">
-                                    	<img src="{{URL::asset('/img/content/stock/58.jpg')}}" alt="" />
-                                         </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="c-masonry-border"></div>
-                                        <div class="cbp-l-caption-alignCenter">
-                                            <div class="cbp-l-caption-body">
-                                                <a href="ajax/projects/project3.html" class="cbp-singlePage cbp-l-caption-buttonLeft btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase">Explore</a>
-                                                <a href="http://vimeo.com/14912890" class="cbp-lightbox cbp-l-caption-buttonRight btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase" data-title="To-Do Dashboard<br>by Tiberiu Neamu">Zoom</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="ajax/projects/project3.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title">To-Do Dashboard</a>
-                                <div class="cbp-l-grid-masonry-projects-desc">graphic / logos</div>
-                            </div>
-                            <div class="cbp-item identity web-design">
-                                <div class="cbp-caption">
-                                    <div class="cbp-caption-defaultWrap">
-                                    	<img src="{{URL::asset('/img/content/stock/56.jpg')}}" alt="" />
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="c-masonry-border"></div>
-                                        <div class="cbp-l-caption-alignCenter">
-                                            <div class="cbp-l-caption-body">
-                                                <a href="ajax/projects/project4.html" class="cbp-singlePage cbp-l-caption-buttonLeft btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase">Explore</a>
-                                                <a href="assets/base/img/content/stock/56.jpg" class="cbp-lightbox cbp-l-caption-buttonRight btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase" data-title="WhereTO App<br>by Tiberiu Neamu">Zoom</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="ajax/projects/project5.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title">WhereTO App</a>
-                                <div class="cbp-l-grid-masonry-projects-desc">web design / identity</div>
-                            </div>
-                            <div class="cbp-item web-design graphic">
-                                <div class="cbp-caption">
-                                    <div class="cbp-caption-defaultWrap">
-                                    	<img src="{{URL::asset('/img/content/stock/54.jpg')}}" alt="" />
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="c-masonry-border"></div>
-                                        <div class="cbp-l-caption-alignCenter">
-                                            <div class="cbp-l-caption-body">
-                                                <a href="ajax/projects/project5.html" class="cbp-singlePage cbp-l-caption-buttonLeft btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase">Explore</a>
-                                                <a href="assets/base/img/content/stock/54.jpg" class="cbp-lightbox cbp-l-caption-buttonRight btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase" data-title="Events and  More<br>by Tiberiu Neamu">Zoom</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="ajax/projects/project4.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title">Events and More</a>
-                                <div class="cbp-l-grid-masonry-projects-desc">web design / graphic</div>
-                            </div>
-                            <div class="cbp-item identity web-design">
-                                <div class="cbp-caption">
-                                    <div class="cbp-caption-defaultWrap">
-                                    	<img src="{{URL::asset('/img/content/stock/37.jpg')}}" alt="" />
-                   					</div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="c-masonry-border"></div>
-                                        <div class="cbp-l-caption-alignCenter">
-                                            <div class="cbp-l-caption-body">
-                                                <a href="ajax/projects/project6.html" class="cbp-singlePage cbp-l-caption-buttonLeft btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase">Explore</a>
-                                                <a href="assets/base/img/content/stock/37.jpg" class="cbp-lightbox cbp-l-caption-buttonRight btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase" data-title="Ski * Buddy<br>by Tiberiu Neamu">Zoom</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="ajax/projects/project6.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title">Ski * Buddy</a>
-                                <div class="cbp-l-grid-masonry-projects-desc">identity / web design</div>
-                            </div>
-                            <div class="cbp-item graphic logos">
-                                <div class="cbp-caption">
-                                    <div class="cbp-caption-defaultWrap">
-                                    	<img src="{{URL::asset('/img/content/stock/41.jpg')}}" alt="" />
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="c-masonry-border"></div>
-                                        <div class="cbp-l-caption-alignCenter">
-                                            <div class="cbp-l-caption-body">
-                                                <a href="ajax/projects/project7.html" class="cbp-singlePage cbp-l-caption-buttonLeft btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase">Explore</a>
-                                                <a href="assets/base/img/content/stock/41.jpg" class="cbp-lightbox cbp-l-caption-buttonRight btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase" data-title="Seemple* Music for iPad<br>by Tiberiu Neamu">Zoom</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="ajax/projects/project7.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title">Seemple* Music for iPad</a>
-                                <div class="cbp-l-grid-masonry-projects-desc">graphic / logos</div>
-                            </div>
-                            <div class="cbp-item identity graphic">
-                                <div class="cbp-caption">
-                                    <div class="cbp-caption-defaultWrap">
-                                    	<img src="{{URL::asset('/img/content/stock/47.jpg')}}" alt="" />
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="c-masonry-border"></div>
-                                        <div class="cbp-l-caption-alignCenter">
-                                            <div class="cbp-l-caption-body">
-                                                <a href="ajax/projects/project8.html" class="cbp-singlePage cbp-l-caption-buttonLeft btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase">Explore</a>
-                                                <a href="http://www.youtube.com/watch?v=Bu9OiDmxCrQ" class="cbp-lightbox cbp-l-caption-buttonRight btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase" data-title="Remind~Me More<br>by Tiberiu Neamu">Zoom</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="ajax/projects/project8.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title">Remind~Me More</a>
-                                <div class="cbp-l-grid-masonry-projects-desc">identity / graphic</div>
-                            </div>
-                            <div class="cbp-item web-design graphic">
-                                <div class="cbp-caption">
-                                    <div class="cbp-caption-defaultWrap">
-                                    	<img src="{{URL::asset('/img/content/stock/36.jpg')}}" alt="" />
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="c-masonry-border"></div>
-                                        <div class="cbp-l-caption-alignCenter">
-                                            <div class="cbp-l-caption-body">
-                                                <a href="ajax/projects/project9.html" class="cbp-singlePage cbp-l-caption-buttonLeft btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase">Explore</a>
-                                                <a href="https://www.ted.com/talks/andrew_bastawrous_get_your_next_eye_exam_on_a_smartphone" class="cbp-lightbox cbp-l-caption-buttonRight btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase"
-                                                data-title="Workout Buddy<br>by Tiberiu Neamu">Zoom</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="ajax/projects/project9.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title">Workout Buddy</a>
-                                <div class="cbp-l-grid-masonry-projects-desc">web design / graphic</div>
-                            </div>
-                            <div class="cbp-item identity web-design">
-                                <div class="cbp-caption">
-                                    <div class="cbp-caption-defaultWrap">
-                                    	<img src="{{URL::asset('/img/content/stock/45.jpg')}}" alt="" />
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="c-masonry-border"></div>
-                                        <div class="cbp-l-caption-alignCenter">
-                                            <div class="cbp-l-caption-body">
-                                                <a href="ajax/projects/project10.html" class="cbp-singlePage cbp-l-caption-buttonLeft btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase">Explore</a>
-                                                <a href="https://www.youtube.com/watch?v=3wbvpOIIBQA" class="cbp-lightbox cbp-l-caption-buttonRight btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase" data-title="Bills Bills Bills<br>by Cosmin Capitanu">Zoom</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="ajax/projects/project10.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title">Bills Bills Bills</a>
-                                <div class="cbp-l-grid-masonry-projects-desc">identity / web design</div>
-                            </div>
-                            <div class="cbp-item identity logos">
-                                <div class="cbp-caption">
-                                    <div class="cbp-caption-defaultWrap">
-                                    	<img src="{{URL::asset('/img/content/stock/33.jpg')}}" alt="" />
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="c-masonry-border"></div>
-                                        <div class="cbp-l-caption-alignCenter">
-                                            <div class="cbp-l-caption-body">
-                                                <a href="ajax/projects/project11.html" class="cbp-singlePage cbp-l-caption-buttonLeft btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase">Explore</a>
-                                                <a href="assets/base/img/content/stock/33.jpg" class="cbp-lightbox cbp-l-caption-buttonRight btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase" data-title="Generic Apps<br>by Cosmin Capitanu">Zoom</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="ajax/projects/project11.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title">Generic Apps</a>
-                                <div class="cbp-l-grid-masonry-projects-desc">identity / logos</div>
-                            </div>
-                            <div class="cbp-item graphic web-design">
-                                <div class="cbp-caption">
-                                    <div class="cbp-caption-defaultWrap">
-                                    	<img src="{{URL::asset('/img/content/stock/34.jpg')}}" alt="" />
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="c-masonry-border"></div>
-                                        <div class="cbp-l-caption-alignCenter">
-                                            <div class="cbp-l-caption-body">
-                                                <a href="ajax/projects/project12.html" class="cbp-singlePage cbp-l-caption-buttonLeft btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase">Explore</a>
-                                                <a href="http://vimeo.com/877053" class="cbp-lightbox cbp-l-caption-buttonRight btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase" data-title="Speed Detector<br>by Cosmin Capitanu">Zoom</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="ajax/projects/project12.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title">Speed Detector</a>
-                                <div class="cbp-l-grid-masonry-projects-desc">graphic / web design</div>
-                            </div>
-                        </div>
-                        <div id="loadMore-container" class="cbp-l-loadMore-button c-margin-t-60">
-                            <a href="ajax/masonry-gallery/load-more.html" class="cbp-l-loadMore-link btn c-btn-square c-btn-border-2x c-btn-dark c-btn-bold c-btn-uppercase">
-                                <span class="cbp-l-loadMore-defaultText">LOAD MORE</span>
-                                <span class="cbp-l-loadMore-loadingText">LOADING...</span>
-                                <span class="cbp-l-loadMore-noMoreLoading">NO MORE WORKS</span>
+@stop
+@section('contenido')
+<div class="container">
+                <div class="c-layout-sidebar-menu c-theme ">
+                    <!-- BEGIN: LAYOUT/SIDEBARS/SHOP-SIDEBAR-MENU -->
+                    <div class="c-sidebar-menu-toggler">
+                        <h3 class="c-title c-font-uppercase c-font-bold">Navigation</h3>
+                        <a href="javascript:;" class="c-content-toggler" data-toggle="collapse" data-target="#sidebar-menu-1">
+                            <span class="c-line"></span>
+                            <span class="c-line"></span>
+                            <span class="c-line"></span>
+                        </a>
+                    </div>
+                    <ul class="c-sidebar-menu collapse " id="sidebar-menu-1">
+                        <li class="c-dropdown c-active c-open">
+                            <a href="javascript:;" class="c-toggler">Active Section
+                                <span class="c-arrow"></span>
                             </a>
+                            <ul class="c-dropdown-menu">
+                                <li class="c-active">
+                                    <a href="#">Active Link</a>
+                                </li>
+                                <li>
+                                    <a href="#">Example Link</a>
+                                </li>
+                                <li>
+                                    <a href="#">Example Link</a>
+                                </li>
+                                <li>
+                                    <a href="#">Example Link</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="c-dropdown">
+                            <a href="javascript:;" class="c-toggler">Sub Menu Section
+                                <span class="c-arrow"></span>
+                            </a>
+                            <ul class="c-dropdown-menu">
+                                <li>
+                                    <a href="#">Example Link</a>
+                                </li>
+                                <li class="c-dropdown">
+                                    <a href="javascript:;" class="c-toggler">Sub Menu
+                                        <span class="c-arrow"></span>
+                                    </a>
+                                    <ul class="c-dropdown-menu">
+                                        <li>
+                                            <a href="#">Example Link</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Example Link</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Example Link</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Example Link</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Example Link</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Example Link</a>
+                                </li>
+                                <li class="c-dropdown">
+                                    <a href="javascript:;" class="c-toggler">Sub Menu
+                                        <span class="c-arrow"></span>
+                                    </a>
+                                    <ul class="c-dropdown-menu">
+                                        <li>
+                                            <a href="#">Example Link</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Example Link</a>
+                                        </li>
+                                        <li class="c-dropdown">
+                                            <a href="javascript:;" class="c-toggler">Sub Menu
+                                                <span class="c-arrow"></span>
+                                            </a>
+                                            <ul class="c-dropdown-menu">
+                                                <li>
+                                                    <a href="#">Example Link</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Example Link</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Example Link</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Example Link</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Example Link</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Example Link</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Example Link</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Example Link</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="c-dropdown">
+                            <a href="javascript:;" class="c-toggler">Section With Icons
+                                <span class="c-arrow"></span>
+                            </a>
+                            <ul class="c-dropdown-menu">
+                                <li>
+                                    <a href="#">
+                                        <i class="icon-social-dribbble"></i> Example Link</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="icon-bell"></i> Example Link</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="icon-bubbles"></i> Example Link</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="icon-user"></i> Example Link</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="c-dropdown">
+                            <a href="javascript:;" class="c-toggler">Expanded Section
+                                <span class="c-arrow"></span>
+                            </a>
+                            <ul class="c-dropdown-menu">
+                                <li>
+                                    <a href="#">Example Link</a>
+                                </li>
+                                <li>
+                                    <a href="#">Example Link</a>
+                                </li>
+                                <li>
+                                    <a href="#">Example Link</a>
+                                </li>
+                                <li>
+                                    <a href="#">Example Link</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="c-dropdown">
+                            <a href="javascript:;">Arrow Toggler
+                                <span class="c-arrow c-toggler"></span>
+                            </a>
+                            <ul class="c-dropdown-menu">
+                                <li>
+                                    <a href="#">Example Link</a>
+                                </li>
+                                <li>
+                                    <a href="#">Example Link</a>
+                                </li>
+                                <li>
+                                    <a href="#">Example Link</a>
+                                </li>
+                                <li>
+                                    <a href="#">Example Link</a>
+                                </li>
+                                <li class="c-dropdown">
+                                    <a href="javascript:;">Sub Menu
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                    <ul class="c-dropdown-menu">
+                                        <li>
+                                            <a href="#">Example Link</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Example Link</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Example Link</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Example Link</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Example Link</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="c-padding-20 c-margin-t-40 c-bg-grey-1 c-bg-img-bottom-right" style="background-image:url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}})">
+                        <div class="c-content-title-1 c-margin-t-20">
+                            <h3 class="c-font-uppercase c-font-bold">Have a question?</h3>
+                            <div class="c-line-left"></div>
+                            <form action="#">
+                                <div class="input-group input-group-lg c-square">
+                                    <input type="text" class="form-control c-square" placeholder="Ask a question" />
+                                    <span class="input-group-btn">
+                                        <button class="btn c-theme-btn c-btn-square c-btn-uppercase c-font-bold" type="button">Go!</button>
+                                    </span>
+                                </div>
+                            </form>
+                            <p class="c-font-thin">Ask your questions away and let our dedicated customer service help you look through our FAQs to get your questions answered!</p>
                         </div>
                     </div>
+                    <!-- END: LAYOUT/SIDEBARS/SHOP-SIDEBAR-MENU -->
+                </div>
+                <div class="c-layout-sidebar-content ">
+                    <!-- BEGIN: PAGE CONTENT -->
+                    <!-- BEGIN: CONTENT/SHOPS/SHOP-RESULT-FILTER-1 -->
+                    <div class="c-shop-result-filter-1 clearfix form-inline">
+                        <div class="c-filter">
+                            <label class="control-label c-font-16">Show:</label>
+                            <select class="form-control c-square c-theme c-input">
+                                <option value="#?limit=24" selected="selected">24</option>
+                                <option value="#?limit=25">25</option>
+                                <option value="#?limit=50">50</option>
+                                <option value="#?limit=75">75</option>
+                                <option value="#?limit=100" selected>100</option>
+                            </select>
+                        </div>
+                        <div class="c-filter">
+                            <label class="control-label c-font-16">Sort&nbsp;By:</label>
+                            <select class="form-control c-square c-theme c-input">
+                                <option value="#?sort=p.sort_order&amp;order=ASC" selected="selected">Default</option>
+                                <option value="#?sort=pd.name&amp;order=ASC">Name (A - Z)</option>
+                                <option value="#?sort=pd.name&amp;order=DESC">Name (Z - A)</option>
+                                <option value="#?sort=p.price&amp;order=ASC">Price (Low &gt; High)</option>
+                                <option value="#?sort=p.price&amp;order=DESC" selected>Price (High &gt; Low)</option>
+                                <option value="#?sort=rating&amp;order=DESC">Rating (Highest)</option>
+                                <option value="#?sort=rating&amp;order=ASC">Rating (Lowest)</option>
+                                <option value="#?sort=p.model&amp;order=ASC">Model (A - Z)</option>
+                                <option value="#?sort=p.model&amp;order=DESC">Model (Z - A)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- END: CONTENT/SHOPS/SHOP-RESULT-FILTER-1 -->
+                    <div class="c-margin-t-20"></div>
+                    <!-- BEGIN: CONTENT/SHOPS/SHOP-2-7 -->
+                    <div class="c-bs-grid-small-space">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 c-margin-b-20">
+                                <div class="c-content-product-2 c-bg-white c-border">
+                                    <div class="c-content-overlay">
+                                        <div class="c-label c-bg-red c-font-uppercase c-font-white c-font-13 c-font-bold">Sale</div>
+                                        <div class="c-overlay-wrapper">
+                                            <div class="c-overlay-content">
+                                                <a href="shop-product-details-2.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
+                                            </div>
+                                        </div>
+                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
+                                    </div>
+                                    <div class="c-info">
+                                        <p class="c-title c-font-16 c-font-slim">Smartphone & Handset</p>
+                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
+                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
+                                        </p>
+                                    </div>
+                                    <div class="btn-group btn-group-justified" role="group">
+                                        <div class="btn-group c-border-top" role="group">
+                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
+                                        </div>
+                                        <div class="btn-group c-border-left c-border-top" role="group">
+                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 c-margin-b-20">
+                                <div class="c-content-product-2 c-bg-white c-border">
+                                    <div class="c-content-overlay">
+                                        <div class="c-overlay-wrapper">
+                                            <div class="c-overlay-content">
+                                                <a href="shop-product-details.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
+                                            </div>
+                                        </div>
+                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
+                                    </div>
+                                    <div class="c-info">
+                                        <p class="c-title c-font-16 c-font-slim">Camera Lens</p>
+                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
+                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
+                                        </p>
+                                    </div>
+                                    <div class="btn-group btn-group-justified" role="group">
+                                        <div class="btn-group c-border-top" role="group">
+                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
+                                        </div>
+                                        <div class="btn-group c-border-left c-border-top" role="group">
+                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 c-margin-b-20">
+                                <div class="c-content-product-2 c-bg-white c-border">
+                                    <div class="c-content-overlay">
+                                        <div class="c-label c-bg-red c-font-uppercase c-font-white c-font-13 c-font-bold">Sale</div>
+                                        <div class="c-label c-label-right c-theme-bg c-font-uppercase c-font-white c-font-13 c-font-bold">New</div>
+                                        <div class="c-overlay-wrapper">
+                                            <div class="c-overlay-content">
+                                                <a href="shop-product-details-2.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
+                                            </div>
+                                        </div>
+                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
+                                    </div>
+                                    <div class="c-info">
+                                        <p class="c-title c-font-16 c-font-slim">Shoes & Tie</p>
+                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
+                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
+                                        </p>
+                                    </div>
+                                    <div class="btn-group btn-group-justified" role="group">
+                                        <div class="btn-group c-border-top" role="group">
+                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
+                                        </div>
+                                        <div class="btn-group c-border-left c-border-top" role="group">
+                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 c-margin-b-20">
+                                <div class="c-content-product-2 c-bg-white c-border">
+                                    <div class="c-content-overlay">
+                                        <div class="c-overlay-wrapper">
+                                            <div class="c-overlay-content">
+                                                <a href="shop-product-details.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
+                                            </div>
+                                        </div>
+                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
+                                    </div>
+                                    <div class="c-info">
+                                        <p class="c-title c-font-16 c-font-slim">Smartphone & Handset</p>
+                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
+                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
+                                        </p>
+                                    </div>
+                                    <div class="btn-group btn-group-justified" role="group">
+                                        <div class="btn-group c-border-top" role="group">
+                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
+                                        </div>
+                                        <div class="btn-group c-border-left c-border-top" role="group">
+                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 c-margin-b-20">
+                                <div class="c-content-product-2 c-bg-white c-border">
+                                    <div class="c-content-overlay">
+                                        <div class="c-label c-bg-red c-font-uppercase c-font-white c-font-13 c-font-bold">Sale</div>
+                                        <div class="c-label c-label-right c-theme-bg c-font-uppercase c-font-white c-font-13 c-font-bold">New</div>
+                                        <div class="c-overlay-wrapper">
+                                            <div class="c-overlay-content">
+                                                <a href="shop-product-details-2.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
+                                            </div>
+                                        </div>
+                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
+                                    </div>
+                                    <div class="c-info">
+                                        <p class="c-title c-font-16 c-font-slim">Watches</p>
+                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
+                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
+                                        </p>
+                                    </div>
+                                    <div class="btn-group btn-group-justified" role="group">
+                                        <div class="btn-group c-border-top" role="group">
+                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
+                                        </div>
+                                        <div class="btn-group c-border-left c-border-top" role="group">
+                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 c-margin-b-20">
+                                <div class="c-content-product-2 c-bg-white c-border">
+                                    <div class="c-content-overlay">
+                                        <div class="c-label c-theme-bg c-font-uppercase c-font-white c-font-13 c-font-bold">New</div>
+                                        <div class="c-overlay-wrapper">
+                                            <div class="c-overlay-content">
+                                                <a href="shop-product-details.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
+                                            </div>
+                                        </div>
+                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
+                                    </div>
+                                    <div class="c-info">
+                                        <p class="c-title c-font-16 c-font-slim">Exclusive Watches</p>
+                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
+                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
+                                        </p>
+                                    </div>
+                                    <div class="btn-group btn-group-justified" role="group">
+                                        <div class="btn-group c-border-top" role="group">
+                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
+                                        </div>
+                                        <div class="btn-group c-border-left c-border-top" role="group">
+                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 c-margin-b-20">
+                                <div class="c-content-product-2 c-bg-white c-border">
+                                    <div class="c-content-overlay">
+                                        <div class="c-overlay-wrapper">
+                                            <div class="c-overlay-content">
+                                                <a href="shop-product-details-2.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
+                                            </div>
+                                        </div>
+                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
+                                    </div>
+                                    <div class="c-info">
+                                        <p class="c-title c-font-16 c-font-slim">Watches</p>
+                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
+                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
+                                        </p>
+                                    </div>
+                                    <div class="btn-group btn-group-justified" role="group">
+                                        <div class="btn-group c-border-top" role="group">
+                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
+                                        </div>
+                                        <div class="btn-group c-border-left c-border-top" role="group">
+                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 c-margin-b-20">
+                                <div class="c-content-product-2 c-bg-white c-border">
+                                    <div class="c-content-overlay">
+                                        <div class="c-overlay-wrapper">
+                                            <div class="c-overlay-content">
+                                                <a href="shop-product-details.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
+                                            </div>
+                                        </div>
+                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
+                                    </div>
+                                    <div class="c-info">
+                                        <p class="c-title c-font-16 c-font-slim">iMac, iPad & iPhone</p>
+                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
+                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
+                                        </p>
+                                    </div>
+                                    <div class="btn-group btn-group-justified" role="group">
+                                        <div class="btn-group c-border-top" role="group">
+                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
+                                        </div>
+                                        <div class="btn-group c-border-left c-border-top" role="group">
+                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 c-margin-b-20">
+                                <div class="c-content-product-2 c-bg-white c-border">
+                                    <div class="c-content-overlay">
+                                        <div class="c-label c-bg-red c-font-uppercase c-font-white c-font-13 c-font-bold">Sale</div>
+                                        <div class="c-overlay-wrapper">
+                                            <div class="c-overlay-content">
+                                                <a href="shop-product-details-2.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
+                                            </div>
+                                        </div>
+                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
+                                    </div>
+                                    <div class="c-info">
+                                        <p class="c-title c-font-16 c-font-slim">Watches</p>
+                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
+                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
+                                        </p>
+                                    </div>
+                                    <div class="btn-group btn-group-justified" role="group">
+                                        <div class="btn-group c-border-top" role="group">
+                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
+                                        </div>
+                                        <div class="btn-group c-border-left c-border-top" role="group">
+                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 c-margin-b-20">
+                                <div class="c-content-product-2 c-bg-white c-border">
+                                    <div class="c-content-overlay">
+                                        <div class="c-overlay-wrapper">
+                                            <div class="c-overlay-content">
+                                                <a href="shop-product-details.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
+                                            </div>
+                                        </div>
+                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
+                                    </div>
+                                    <div class="c-info">
+                                        <p class="c-title c-font-16 c-font-slim">Exclusive Watches</p>
+                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
+                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
+                                        </p>
+                                    </div>
+                                    <div class="btn-group btn-group-justified" role="group">
+                                        <div class="btn-group c-border-top" role="group">
+                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
+                                        </div>
+                                        <div class="btn-group c-border-left c-border-top" role="group">
+                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 c-margin-b-20">
+                                <div class="c-content-product-2 c-bg-white c-border">
+                                    <div class="c-content-overlay">
+                                        <div class="c-overlay-wrapper">
+                                            <div class="c-overlay-content">
+                                                <a href="shop-product-details-2.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
+                                            </div>
+                                        </div>
+                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
+                                    </div>
+                                    <div class="c-info">
+                                        <p class="c-title c-font-16 c-font-slim">Watches</p>
+                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
+                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
+                                        </p>
+                                    </div>
+                                    <div class="btn-group btn-group-justified" role="group">
+                                        <div class="btn-group c-border-top" role="group">
+                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
+                                        </div>
+                                        <div class="btn-group c-border-left c-border-top" role="group">
+                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 c-margin-b-20">
+                                <div class="c-content-product-2 c-bg-white c-border">
+                                    <div class="c-content-overlay">
+                                        <div class="c-overlay-wrapper">
+                                            <div class="c-overlay-content">
+                                                <a href="shop-product-details.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
+                                            </div>
+                                        </div>
+                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
+                                    </div>
+                                    <div class="c-info">
+                                        <p class="c-title c-font-16 c-font-slim">iMac, iPad & iPhone</p>
+                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
+                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
+                                        </p>
+                                    </div>
+                                    <div class="btn-group btn-group-justified" role="group">
+                                        <div class="btn-group c-border-top" role="group">
+                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
+                                        </div>
+                                        <div class="btn-group c-border-left c-border-top" role="group">
+                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: CONTENT/SHOPS/SHOP-2-7 -->
+                    <div class="c-margin-t-20"></div>
+                    <ul class="c-content-pagination c-square c-theme pull-right">
+                        <li class="c-prev">
+                            <a href="#">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">1</a>
+                        </li>
+                        <li class="c-active">
+                            <a href="#">2</a>
+                        </li>
+                        <li>
+                            <a href="#">3</a>
+                        </li>
+                        <li>
+                            <a href="#">4</a>
+                        </li>
+                        <li class="c-next">
+                            <a href="#">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- END: PAGE CONTENT -->
                 </div>
             </div>
-            <!-- END: PAGE CONTENT -->        
+
 @stop
+
+@section('script')
+
+
+
+@stop
+
+
