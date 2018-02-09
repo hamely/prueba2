@@ -35,6 +35,11 @@
 	<link href="{{ asset("css/custom.css")}}" rel="stylesheet" type="text/css" />
 
 	<script type="text/javascript" src="{{ asset("js/jssor.slider.min.js") }}"></script>
+      <style type="text/css">
+            .error{
+                color: red;
+            }
+        </style>
 </head>
 
 @yield('headerScrip')

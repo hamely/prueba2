@@ -10,6 +10,7 @@ use App\Http\Requests;
 use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Session;
+use App\Http\Requests\CreateMensageRequest;
 use Debugbar;
 use Hashids;
 
@@ -66,14 +67,8 @@ class MesageController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(CreateMensageRequest $request)
     {
-        
-         /*DB::table('mensajes')->insert([
-            "nombre" => $request->input('nombre'),
-            "comentario" => $request->input('comentario'),
-            "email"  => $request->input('email')    
-         ]);*/
          $mensajes =Mensaje::create($request->all());
 
          if(Auth()->check())
@@ -88,7 +83,7 @@ class MesageController extends Controller
          });
 
 
-         return redirect()->route('mensajes.create')->with('info' , 'Hemos recibidos tu mensaje');
+         return redirect()->route('mensajes.create')->with('info' , 'Tu mensaje fue recibido');
          //return $request->all;
     }
 

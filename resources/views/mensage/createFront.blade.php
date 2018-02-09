@@ -16,7 +16,7 @@
 		                                <div class="c-body">
 		                                    @if(session()->has('info'))
 
-												<h3> {{ session('info')}} </h3>
+												<div class="alert alert-success"> {{ session('info')}} </div>
 		
 											@endif
 													
@@ -39,32 +39,37 @@
 															Email
 															</label>
 															<div class="col-lg-5">
-																<input type="text" class="form-control" name="email" id="email" value ="{{old('nombre')}}" placeholder="Email">
+																<input type="text" class="form-control" name="email" id="email" value ="{{old('email')}}" placeholder="Email">
 																{!! $errors->first('email','<span class=error>:message</span>') !!}
 															</div>
 														</div>
 												
-
-														<div class="form-group"> 
-															<label  class="col-lg-2 control-label">
-																Mensage
-															</label>
-															<div class="col-lg-5">
-																<input type="text" name="nombre" class="form-control" id="nombre" value="{{ old('nombre') }}" placeholder="Mensage">
-																{!! $errors->first('nombre','<span class=error>:message</span>') !!}
-															</div>
-														</div>
-
 														<div class="form-group"> 
 															<label  class="col-lg-2 control-label">
 																Telefon de Contacto
 															</label>
 															<div class="col-lg-5">
 
-																<input type="text" name="comentario" class="form-control" placeholder="Telefon de contacto">
-
+																<input type="text" name="contacto" id="contacto" class="form-control" placeholder="Telefon de contacto" value="{{old('contacto')}}">
+																{!! $errors->first('contacto','<span class=error>:message</span>') !!}
+																
 															</div>
 														</div>
+
+														<div class="form-group"> 
+															<label  class="col-lg-2 control-label">
+																Mensage
+															</label>
+															<div class="col-lg-5">
+																<textarea name="comentario" id="comentario" rows="5" cols="38" style="overflow:hidden">
+																	{{old('comentario')}}
+																</textarea>
+																
+																{!! $errors->first('comentario','<span class=error>:message</span>') !!}
+															</div>
+														</div>
+
+														
 
 														<div class="form-group">
 															<div class="col-lg-offset-2 col-lg-10">
