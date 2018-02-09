@@ -46,24 +46,31 @@
 												
 														<div class="form-group"> 
 															<label  class="col-lg-2 control-label">
-
-																Mensaje
+																Teléfono de Contacto
 															</label>
 															<div class="col-lg-5">
-																<input type="text" name="nombre" class="form-control" id="nombre" value="{{ old('nombre') }}" placeholder="Mensaje">
-																{!! $errors->first('nombre','<span class=error>:message</span>') !!}
 
+																<input type="text" name="contacto" id="contacto" class="form-control" placeholder="Teléfono de contacto" value="{{old('contacto')}}">
+																{!! $errors->first('contacto','<span class=error>:message</span>') !!}
+																
 															</div>
 														</div>
 
 														<div class="form-group"> 
 															<label  class="col-lg-2 control-label">
-																Teléfono de Contacto
+																Mensaje
 															</label>
 															<div class="col-lg-5">
+																<textarea name="comentario" id="comentario" rows="5" cols="38" style="overflow:hidden">
+																	{{old('comentario')}}
+																</textarea>
+																
+																{!! $errors->first('comentario','<span class=error>:message</span>') !!}
+															</div>
+														</div>
 
-																<input type="text" name="comentario" class="form-control" placeholder="Teléfono de Contacto">
-														</div>													
+														
+
 														<div class="form-group">
 															<div class="col-lg-offset-2 col-lg-10">
 																<input type="submit" value="Enviar" class="btn btn-info"> 
