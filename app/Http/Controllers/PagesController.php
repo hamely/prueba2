@@ -107,7 +107,7 @@ class PagesController extends Controller
 					      }
 
 					      $listaLugaresTuristicos=Ubigeo::find($id);
-				           if(count($listaLugaresTuristicos)>=1)
+				           if($listaLugaresTuristicos->count()>=1)
 				           {
 				           		
 				           		return response()->json(['data' => $listaLugaresTuristicos->Lugares]);
