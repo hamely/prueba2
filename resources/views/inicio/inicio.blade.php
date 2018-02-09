@@ -203,11 +203,11 @@
 		</div>
 		<div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
 			<div data-b="0">
-				<img data-u="image" src="{{URL::asset('/img/present/04.jpg')}}" />
+				<img data-u="image" src="{{URL::asset('/img/content/inicio/04.jpg')}}" />
 				<div style="position:absolute;top:77px;left:460px;width:460px;height:210px;z-index:0;">
-					<img data-u="caption" data-t="0" style="position:absolute;top:-300px;left:89px;width:210px;height:178px;z-index:0;" src="{{URL::asset('img/present/02/mock-pc.png')}}" />
-					<img data-u="caption" data-t="1" style="position:absolute;top:55px;left:-200px;width:114px;height:144px;z-index:0;" src="{{URL::asset('/img/present/02/mock-ipad.png')}}" />
-					<img data-u="caption" data-t="2" style="position:absolute;top:88px;left:420px;width:219px;height:120px;z-index:0;" src="{{URL::asset('/img/present/02/mock-laptop.png')}}" />
+					<img data-u="caption" data-t="0" style="position:absolute;top:-300px;left:89px;width:210px;height:178px;z-index:0;" src="{{URL::asset('img/content/inicio/mock-pc.png')}}" />
+					<img data-u="caption" data-t="1" style="position:absolute;top:55px;left:-200px;width:114px;height:144px;z-index:0;" src="{{URL::asset('/img/content/inicio/mock-ipad.png')}}" />
+					<img data-u="caption" data-t="2" style="position:absolute;top:88px;left:420px;width:219px;height:120px;z-index:0;" src="{{URL::asset('/img/content/inicio/mock-laptop.png')}}" />
 				</div>
 				<div data-u="caption" data-t="3" data-to="0% 100%" style="position:absolute;top:385px;left:-100px;width:257px;height:127px;z-index:0;">
 					<div style="position:absolute;top:4px;left:34px;width:198px;height:112px;z-index:0; overflow:hidden;">
@@ -219,7 +219,7 @@
 					<img data-u="caption" data-t="7" style="position:absolute;top:100px;left:300px;width:63px;height:77px;z-index:0;" src="{{URL::asset('/img/present/02/hand.png')}}" />
 					<img data-u="caption" data-t="8" style="position:absolute;top:-44px;left:255px;width:75px;height:20px;z-index:0;" src="{{URL::asset('/img/present/02/swipe-arrow.png')}}" />
 				</div>
-				<a href="http://www.jssor.com/help/slideshow-transitions.html" target="_blank" style="display:block; position:absolute;top:22px;left:600px;width:320px;height:36px;z-index:0;font-size:22px;color:#ffffff;line-height:36px;">Mas de 30 Templos coloniales</a>
+				<a href="http://www.jssor.com/help/slideshow-transitions.html" target="_blank" style="display:block; position:absolute;top:22px;left:600px;width:320px;height:36px;z-index:0;font-size:22px;color:#000;line-height:36px;">Grandes ideas, grandes resultados.</a>
 			</div>
 			<div data-b="1" data-p="170.00">
 				<img data-u="image" src="{{URL::asset('/img/present/02.jpg')}}" />
@@ -322,7 +322,7 @@
 						  {!! Form::open(['route' => ['templo'] , 'method' => 'GET', 'id' => 'formLugares' ]) !!}
 									 <div class="col-sm-6" style="margin-left:5px;">
 											<span class='3d' style="color:#e44b02;font-weight:bold;font-size:30px;text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,0 3px 0 #bbb, 0 4px 0 #b9b9b9,0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);">
-											Spaziour</span> <span style="color:#09e5fb;">Encuentra tu templo Colonial</span>
+											Spaziour</span> <span style="color:white;">Encuentra tu proyecto aquí</span>
 									 </div>
 									 {!!  method_field('GET') !!}
 				        				{!!  csrf_field() !!}
@@ -382,7 +382,7 @@
 	                        
 	                    </div>
 	                </div>
-	                <div id="baner" class="c-content-feature-15 c-bg-img-center"  style="background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}}">
+	                <div id="baner" class="c-content-feature-15 c-bg-img-center"  style="background-image: url({{URL::asset('/img/content/inicio/chuquinga.jpg')}}">
 		                <div class="container">
 		                    <div class="row">
 		                        <div class="col-md-offset-4 col-md-8 col-xs-12">
@@ -390,7 +390,7 @@
 		                                <h2 class="c-feature-15-title c-font-bold c-font-uppercase c-theme-border c-font-white">Templo colonial de Chuquinga</h2>
 		                                <div class="row">
 		                                    <div class="col-md-4 col-xs-12">
-												<img src="{{URL::asset('/img/content/shop8/02.jpg')}}" class="c-feature-15-img" /> </div>
+												<img src="{{URL::asset('/img/content/inicio/02.jpg')}}" class="c-feature-15-img" /> </div>
 		                                    <div class="col-md-8 col-xs-12">
 		                                        <p class="c-feature-15-desc c-font-grey"> El Templo de Chuquinga, ergido bajo la advocación de San Pedro, presenta una planta de distribución longitudinal, con tres volúmenes adosados al cuerpo principal, 
 		                                        en el muro lateral sur, correspondiente a los ambientes del baptisterio, </p>
@@ -411,8 +411,8 @@
 		                                    <div class="c-icon-wrapper">
 		                                        <div class="c-content-line-icon c-theme c-icon-screen-chart"></div>
 		                                    </div>
-		                                    <h3 class="c-font-uppercase c-font-bold c-title">APLICAIONES WEB</h3>
-		                                    <p>Desarrollo de paginas dinamicas</p>
+		                                    <h3 class="c-font-uppercase c-font-bold c-title">APLICACIONES WEB</h3>
+		                                    <p>Desarrollo de páginas dinámicas</p>
 		                                </div>
 		                            </div>
 		                            <div class="col-md-4 col-sm-6">
@@ -421,7 +421,7 @@
 		                                        <div class="c-content-line-icon c-theme c-icon-support"></div>
 		                                    </div>
 		                                    <h3 class="c-font-uppercase c-font-bold c-title">Aplicaciones móviles</h3>
-		                                    <p>Desarro de Modelados 3D</p>
+		                                    <p>Modelados 3D</p>
 		                                </div>
 		                            </div>
 		                            <div class="col-md-4 col-sm-6">
@@ -446,7 +446,7 @@
 		                                <div class="c-content-v-center c-theme-bg wow bounceInUp" data-wow-delay1="2s" data-height="height">
 		                                    <div class="c-wrapper">
 		                                        <div class="c-body c-padding-20 c-center">
-		                                            <h3 class="c-font-19 c-line-height-28 c-font-uppercase c-font-white c-font-bold">Los lugares turisticos mas vicitados </h3>
+		                                            <h3 class="c-font-19 c-line-height-28 c-font-uppercase c-font-white c-font-bold">Desarrollo de software, diseño de páginas web, manejo de cms, logotipos y modelados 3d </h3>
 		                                        </div>
 		                                    </div>
 		                                </div>
@@ -470,7 +470,7 @@
 		                   		 <div class="c-content-client-logos-slider-1" data-slider="owl">
 		  
 				                        <div class="c-content-title-1">
-				                            <h3 class="c-center c-font-uppercase c-font-bold">Paginas Desarrolladas</h3>
+				                            <h3 class="c-center c-font-uppercase c-font-bold">Páginas Desarrolladas</h3>
 				                            <div class="c-line-center c-theme-bg"></div>
 				                        </div>
 

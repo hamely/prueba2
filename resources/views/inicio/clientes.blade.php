@@ -6,7 +6,7 @@
 	<div class="c-layout-breadcrumbs-1 c-fonts-uppercase c-fonts-bold" style="background:#ddd;margin-top: 90px;">
                 <div class="container">
                     <div class="c-page-title c-pull-left">
-                        <h3 class="c-font-uppercase c-font-sbold">Abouts</h3>
+                        <h3 class="c-font-uppercase c-font-sbold">Clientes</h3>
                     </div>
                     <ul class="c-page-breadcrumbs c-theme-nav c-pull-right c-fonts-regular">
                         <li>
