@@ -47,21 +47,21 @@
 
 														<div class="form-group"> 
 															<label  class="col-lg-2 control-label">
-																Mensage
+																Mensaje
 															</label>
 															<div class="col-lg-5">
-																<input type="text" name="nombre" class="form-control" id="nombre" value="{{ old('nombre') }}" placeholder="Mensage">
+																<input type="text" name="nombre" class="form-control" id="nombre" value="{{ old('nombre') }}" placeholder="Mensaje">
 																{!! $errors->first('nombre','<span class=error>:message</span>') !!}
 															</div>
 														</div>
 
 														<div class="form-group"> 
 															<label  class="col-lg-2 control-label">
-																Telefon de Contacto
+																Teléfono de Contacto
 															</label>
 															<div class="col-lg-5">
 
-																<input type="text" name="comentario" class="form-control" placeholder="Telefon de contacto">
+																<input type="text" name="comentario" class="form-control" placeholder="Teléfono de Contacto">
 
 															</div>
 														</div>
