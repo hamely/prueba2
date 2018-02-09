@@ -6,18 +6,21 @@
  <div class="c-layout-breadcrumbs-1 c-fonts-uppercase c-fonts-bold c-bordered c-bordered-both" style="background:#ddd;margin-top: 90px;">
                 <div class="container">
                     <div class="c-page-title c-pull-left">
-                        <h3 class="c-font-uppercase c-font-sbold">Blog Grid View</h3>
+                        <h3 class="c-font-uppercase c-font-sbold">Trabajos realizados</h3>
                     </div>
                     <ul class="c-page-breadcrumbs c-theme-nav c-pull-right c-fonts-regular">
                         <li>
-                            <a href="#">Pages</a>
+                            <a href="#">Páginas web</a>
                         </li>
                         <li>/</li>
                         <li>
-                            <a href="page-blog-grid.html">Blog Grid View</a>
+                            <a href="page-blog-grid.html">Software</a>
                         </li>
                         <li>/</li>
-                        <li class="c-state_active">Jango Components</li>
+                        <li>
+                            <a href="page-blog-grid.html">Logos</a>
+                        </li>
+                        <li>/</li>
                     </ul>
                 </div>
             </div>
@@ -217,19 +220,19 @@
                             </ul>
                         </li>
                     </ul>
-                    <div class="c-padding-20 c-margin-t-40 c-bg-grey-1 c-bg-img-bottom-right" style="background-image:url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}})">
+                    <div class="c-padding-20 c-margin-t-40 c-bg-grey-1 c-bg-img-bottom-right" style="">
                         <div class="c-content-title-1 c-margin-t-20">
-                            <h3 class="c-font-uppercase c-font-bold">Have a question?</h3>
+                            <h3 class="c-font-uppercase c-font-bold">Preguntas</h3>
                             <div class="c-line-left"></div>
                             <form action="#">
                                 <div class="input-group input-group-lg c-square">
                                     <input type="text" class="form-control c-square" placeholder="Ask a question" />
                                     <span class="input-group-btn">
-                                        <button class="btn c-theme-btn c-btn-square c-btn-uppercase c-font-bold" type="button">Go!</button>
+                                        <button class="btn c-theme-btn c-btn-square c-btn-uppercase c-font-bold" type="button">Ir!</button>
                                     </span>
                                 </div>
                             </form>
-                            <p class="c-font-thin">Ask your questions away and let our dedicated customer service help you look through our FAQs to get your questions answered!</p>
+                            <p class="c-font-thin"></p>
                         </div>
                     </div>
                     <!-- END: LAYOUT/SIDEBARS/SHOP-SIDEBAR-MENU -->
@@ -268,7 +271,7 @@
                     <!-- BEGIN: CONTENT/SHOPS/SHOP-2-7 -->
                     <div class="c-bs-grid-small-space">
                         <div class="row">
-                            <div class="col-md-3 col-sm-6 c-margin-b-20">
+                            <div class="col-md-6 col-sm-6 c-margin-b-20">
                                 <div class="c-content-product-2 c-bg-white c-border">
                                     <div class="c-content-overlay">
                                         <div class="c-label c-bg-red c-font-uppercase c-font-white c-font-13 c-font-bold">Sale</div>
@@ -277,10 +280,10 @@
                                                 <a href="shop-product-details-2.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
                                             </div>
                                         </div>
-                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
+                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-2.jpg')}});"></div>
                                     </div>
                                     <div class="c-info">
-                                        <p class="c-title c-font-16 c-font-slim">Smartphone & Handset</p>
+                                        <p class="c-title c-font-16 c-font-slim">Radio Mautri</p>
                                         <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
                                             <span class="c-font-14 c-font-line-through c-font-red">$600</span>
                                         </p>
@@ -295,7 +298,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6 c-margin-b-20">
+                            <div class="col-md-6 col-sm-6 c-margin-b-20">
                                 <div class="c-content-product-2 c-bg-white c-border">
                                     <div class="c-content-overlay">
                                         <div class="c-overlay-wrapper">
@@ -306,7 +309,7 @@
                                         <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
                                     </div>
                                     <div class="c-info">
-                                        <p class="c-title c-font-16 c-font-slim">Camera Lens</p>
+                                        <p class="c-title c-font-16 c-font-slim">Gestel Comunicaciones</p>
                                         <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
                                             <span class="c-font-14 c-font-line-through c-font-red">$600</span>
                                         </p>
@@ -321,7 +324,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6 c-margin-b-20">
+                            <div class="col-md-6 col-sm-6 c-margin-b-20">
                                 <div class="c-content-product-2 c-bg-white c-border">
                                     <div class="c-content-overlay">
                                         <div class="c-label c-bg-red c-font-uppercase c-font-white c-font-13 c-font-bold">Sale</div>
@@ -331,10 +334,10 @@
                                                 <a href="shop-product-details-2.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
                                             </div>
                                         </div>
-                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
+                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-3.jpg')}});"></div>
                                     </div>
                                     <div class="c-info">
-                                        <p class="c-title c-font-16 c-font-slim">Shoes & Tie</p>
+                                        <p class="c-title c-font-16 c-font-slim">Dirección Regional Agraria de Apurímac</p>
                                         <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
                                             <span class="c-font-14 c-font-line-through c-font-red">$600</span>
                                         </p>
@@ -349,7 +352,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6 c-margin-b-20">
+                            <div class="col-md-6 col-sm-6 c-margin-b-20">
                                 <div class="c-content-product-2 c-bg-white c-border">
                                     <div class="c-content-overlay">
                                         <div class="c-overlay-wrapper">
@@ -357,10 +360,10 @@
                                                 <a href="shop-product-details.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
                                             </div>
                                         </div>
-                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
+                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-4.jpg')}});"></div>
                                     </div>
                                     <div class="c-info">
-                                        <p class="c-title c-font-16 c-font-slim">Smartphone & Handset</p>
+                                        <p class="c-title c-font-16 c-font-slim">Sociedad de Beneficencia Pública de Abancay</p>
                                         <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
                                             <span class="c-font-14 c-font-line-through c-font-red">$600</span>
                                         </p>
@@ -377,7 +380,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-3 col-sm-6 c-margin-b-20">
+                            <div class="col-md-6 col-sm-6 c-margin-b-20">
                                 <div class="c-content-product-2 c-bg-white c-border">
                                     <div class="c-content-overlay">
                                         <div class="c-label c-bg-red c-font-uppercase c-font-white c-font-13 c-font-bold">Sale</div>
@@ -387,10 +390,10 @@
                                                 <a href="shop-product-details-2.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
                                             </div>
                                         </div>
-                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
+                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-5.jpg')}});"></div>
                                     </div>
                                     <div class="c-info">
-                                        <p class="c-title c-font-16 c-font-slim">Watches</p>
+                                        <p class="c-title c-font-16 c-font-slim">Diario Chaski</p>
                                         <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
                                             <span class="c-font-14 c-font-line-through c-font-red">$600</span>
                                         </p>
@@ -405,7 +408,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6 c-margin-b-20">
+                            <div class="col-md-6 col-sm-6 c-margin-b-20">
                                 <div class="c-content-product-2 c-bg-white c-border">
                                     <div class="c-content-overlay">
                                         <div class="c-label c-theme-bg c-font-uppercase c-font-white c-font-13 c-font-bold">New</div>
@@ -417,166 +420,7 @@
                                         <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
                                     </div>
                                     <div class="c-info">
-                                        <p class="c-title c-font-16 c-font-slim">Exclusive Watches</p>
-                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
-                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
-                                        </p>
-                                    </div>
-                                    <div class="btn-group btn-group-justified" role="group">
-                                        <div class="btn-group c-border-top" role="group">
-                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
-                                        </div>
-                                        <div class="btn-group c-border-left c-border-top" role="group">
-                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 c-margin-b-20">
-                                <div class="c-content-product-2 c-bg-white c-border">
-                                    <div class="c-content-overlay">
-                                        <div class="c-overlay-wrapper">
-                                            <div class="c-overlay-content">
-                                                <a href="shop-product-details-2.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
-                                            </div>
-                                        </div>
-                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
-                                    </div>
-                                    <div class="c-info">
-                                        <p class="c-title c-font-16 c-font-slim">Watches</p>
-                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
-                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
-                                        </p>
-                                    </div>
-                                    <div class="btn-group btn-group-justified" role="group">
-                                        <div class="btn-group c-border-top" role="group">
-                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
-                                        </div>
-                                        <div class="btn-group c-border-left c-border-top" role="group">
-                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 c-margin-b-20">
-                                <div class="c-content-product-2 c-bg-white c-border">
-                                    <div class="c-content-overlay">
-                                        <div class="c-overlay-wrapper">
-                                            <div class="c-overlay-content">
-                                                <a href="shop-product-details.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
-                                            </div>
-                                        </div>
-                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
-                                    </div>
-                                    <div class="c-info">
-                                        <p class="c-title c-font-16 c-font-slim">iMac, iPad & iPhone</p>
-                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
-                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
-                                        </p>
-                                    </div>
-                                    <div class="btn-group btn-group-justified" role="group">
-                                        <div class="btn-group c-border-top" role="group">
-                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
-                                        </div>
-                                        <div class="btn-group c-border-left c-border-top" role="group">
-                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3 col-sm-6 c-margin-b-20">
-                                <div class="c-content-product-2 c-bg-white c-border">
-                                    <div class="c-content-overlay">
-                                        <div class="c-label c-bg-red c-font-uppercase c-font-white c-font-13 c-font-bold">Sale</div>
-                                        <div class="c-overlay-wrapper">
-                                            <div class="c-overlay-content">
-                                                <a href="shop-product-details-2.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
-                                            </div>
-                                        </div>
-                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
-                                    </div>
-                                    <div class="c-info">
-                                        <p class="c-title c-font-16 c-font-slim">Watches</p>
-                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
-                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
-                                        </p>
-                                    </div>
-                                    <div class="btn-group btn-group-justified" role="group">
-                                        <div class="btn-group c-border-top" role="group">
-                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
-                                        </div>
-                                        <div class="btn-group c-border-left c-border-top" role="group">
-                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 c-margin-b-20">
-                                <div class="c-content-product-2 c-bg-white c-border">
-                                    <div class="c-content-overlay">
-                                        <div class="c-overlay-wrapper">
-                                            <div class="c-overlay-content">
-                                                <a href="shop-product-details.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
-                                            </div>
-                                        </div>
-                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
-                                    </div>
-                                    <div class="c-info">
-                                        <p class="c-title c-font-16 c-font-slim">Exclusive Watches</p>
-                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
-                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
-                                        </p>
-                                    </div>
-                                    <div class="btn-group btn-group-justified" role="group">
-                                        <div class="btn-group c-border-top" role="group">
-                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
-                                        </div>
-                                        <div class="btn-group c-border-left c-border-top" role="group">
-                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 c-margin-b-20">
-                                <div class="c-content-product-2 c-bg-white c-border">
-                                    <div class="c-content-overlay">
-                                        <div class="c-overlay-wrapper">
-                                            <div class="c-overlay-content">
-                                                <a href="shop-product-details-2.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
-                                            </div>
-                                        </div>
-                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
-                                    </div>
-                                    <div class="c-info">
-                                        <p class="c-title c-font-16 c-font-slim">Watches</p>
-                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
-                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
-                                        </p>
-                                    </div>
-                                    <div class="btn-group btn-group-justified" role="group">
-                                        <div class="btn-group c-border-top" role="group">
-                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
-                                        </div>
-                                        <div class="btn-group c-border-left c-border-top" role="group">
-                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 c-margin-b-20">
-                                <div class="c-content-product-2 c-bg-white c-border">
-                                    <div class="c-content-overlay">
-                                        <div class="c-overlay-wrapper">
-                                            <div class="c-overlay-content">
-                                                <a href="shop-product-details.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
-                                            </div>
-                                        </div>
-                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
-                                    </div>
-                                    <div class="c-info">
-                                        <p class="c-title c-font-16 c-font-slim">iMac, iPad & iPhone</p>
+                                        <p class="c-title c-font-16 c-font-slim">Gestel Comunicaciones</p>
                                         <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
                                             <span class="c-font-14 c-font-line-through c-font-red">$600</span>
                                         </p>
