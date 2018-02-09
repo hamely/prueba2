@@ -306,12 +306,12 @@
                                                 <a href="shop-product-details.html" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Explore</a>
                                             </div>
                                         </div>
-                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/bg-11.jpg')}});"></div>
+                                        <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 230px; background-image: url({{URL::asset('/img/content/backgrounds/modela3D.jpg')}});"></div>
                                     </div>
                                     <div class="c-info">
-                                        <p class="c-title c-font-16 c-font-slim">Gestel Comunicaciones</p>
-                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
-                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
+                                        <p class="c-title c-font-16 c-font-slim">Modelados 3D</p>
+                                        <p class="c-price c-font-14 c-font-slim">$0 &nbsp;
+                                            <span class="c-font-14 c-font-line-through c-font-red">$0</span>
                                         </p>
                                     </div>
                                     <div class="btn-group btn-group-justified" role="group">

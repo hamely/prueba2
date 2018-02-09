@@ -16,7 +16,7 @@
 		                                <div class="c-body">
 		                                    @if(session()->has('info'))
 
-												<h3> {{ session('info')}} </h3>
+												<div class="alert alert-success"> {{ session('info')}} </div>
 		
 											@endif
 													
@@ -39,19 +39,20 @@
 															Email
 															</label>
 															<div class="col-lg-5">
-																<input type="text" class="form-control" name="email" id="email" value ="{{old('nombre')}}" placeholder="Email">
+																<input type="text" class="form-control" name="email" id="email" value ="{{old('email')}}" placeholder="Email">
 																{!! $errors->first('email','<span class=error>:message</span>') !!}
 															</div>
 														</div>
 												
-
 														<div class="form-group"> 
 															<label  class="col-lg-2 control-label">
+
 																Mensaje
 															</label>
 															<div class="col-lg-5">
 																<input type="text" name="nombre" class="form-control" id="nombre" value="{{ old('nombre') }}" placeholder="Mensaje">
 																{!! $errors->first('nombre','<span class=error>:message</span>') !!}
+
 															</div>
 														</div>
 
@@ -62,10 +63,7 @@
 															<div class="col-lg-5">
 
 																<input type="text" name="comentario" class="form-control" placeholder="Teléfono de Contacto">
-
-															</div>
-														</div>
-
+														</div>													
 														<div class="form-group">
 															<div class="col-lg-offset-2 col-lg-10">
 																<input type="submit" value="Enviar" class="btn btn-info"> 

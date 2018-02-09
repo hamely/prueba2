@@ -17,6 +17,7 @@
 				     				<th>Nombre</th>
 				     				<th> Email</th>
 				     				<th> Comentario</th>
+				     				<th> Teléfono </th>
 				     				<th> Acciones</th>
 				     			</tr>
 				     		</thead>
@@ -57,7 +58,13 @@
 										 </a>	 
 
 				     				</td>
-				     				
+
+				     				<td> 
+
+											{{ $item->contacto}}
+
+				     				</td>
+
 				     				<td>
 				     					<a href="{{ route('mensajes.edit',Hashids::encode($item->id))}}" class="btn btn-primary btn-xs">
 				     						Editar
