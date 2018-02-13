@@ -84,9 +84,8 @@
                                 </ul>
                             </div>
                         </li>
-                        <li><a href="" class=""><i class="lnr lnr-dice"></i> <span>Paginas</span></a></li>
                         <li><a href="" class=""><i class="lnr lnr-text-format"></i> <span>Proyectos</span></a></li>
-                        <li><a href="" class=""><i class="lnr lnr-linearicons"></i> <span>Reportes</span></a></li>
+                        <li><a href="{{ route('entradas.index')}}" class="{{ activeMenu('entradas') }}"><i class="lnr lnr-linearicons"></i> <span>Entradas</span></a></li>
                         @if(auth()->check())
                                 <li><a href="{{ route('mensajes.index')}}" class= "{{ activeMenu('mensajes') }}"><i class="lnr lnr-home"></i> <span>Mensaje</span></a></li>
                             @if(auth()->user()->hasRoles(['admin','estudiante']))

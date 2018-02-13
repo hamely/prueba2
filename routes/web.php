@@ -28,7 +28,9 @@ Route::get('disenio-web/',['as' => 'disenioWeb', 'uses' => 'PagesController@dise
 Route::get('disenio-de-logotipos/',['as' => 'disenioLogotipos', 'uses' => 'PagesController@disenioWeb']);
 Route::get('trabajos/',['as' => 'trabajos', 'uses' => 'PagesController@trabajos']);
 Route::get('clientes/',['as' => 'clientes', 'uses' => 'PagesController@clientes']);
+
 Route::get('blog/',['as' => 'blog', 'uses' => 'PagesController@blog']);
+Route::resource('entradas' , 'EntradaController');
 
 
 //para temlos templos 

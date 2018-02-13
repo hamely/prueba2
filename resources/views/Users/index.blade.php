@@ -7,7 +7,7 @@
 						<div class="row">
 								 <div style="background: #b0b4c7;margin: 2px;">
 									 <a href="{{ route('usuarios.create')}}" class="btn btn-primary">
-							     						Editar
+							     						Agregar
 							     	 </a>
 								  </div>
 								 
