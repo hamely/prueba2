@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 use App\Categoria;
+use App\User;
 
 class EntradaController extends Controller
 {
@@ -15,9 +17,9 @@ class EntradaController extends Controller
     public function index()
     {
         
-        $categoria=Categoria::all();
-
-        return view('entrada.index',['categoria' => $categoria]);
+        $usuario=User::find(auth()->user()->id);
+        //dd($usuario->usuarios());
+        return view('entrada.index',['entradas' => $usuario->usuarios()->paginate(5)]);
     }
 
     /**
@@ -27,7 +29,8 @@ class EntradaController extends Controller
      */
     public function create()
     {
-        return view('entrada.create');
+        $categoria=Categoria::all();
+        return view('entrada.create',['categoria' => $categoria]);
     }
 
     /**
@@ -38,7 +41,22 @@ class EntradaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $ruta=str_replace(" ", "-", $request->titulo);
+        $contenido=$request->contenido;
+        $titulo=$request->titulo;
+
+        foreach ($request->nombre as $idCategoria) 
+        {
+            $categoria=Categoria::find($idCategoria);
+            $categoria->user()->attach(auth()->User()->id,array('titulo' => $titulo,'ruta' =>  $ruta,'contenido' =>$contenido));
+        }
+        
+        Session::flash('success', 'Se Agrego correctamente la entrada');
+
+
+        return redirect()->route('entradas.index');
+
+  
     }
 
     /**

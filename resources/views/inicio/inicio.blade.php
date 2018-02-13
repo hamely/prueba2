@@ -326,12 +326,12 @@
 									 </div>
 									 {!!  method_field('GET') !!}
 				        				{!!  csrf_field() !!}
-							  		 <div class="col-sm-6" style="margin-left:-39px;margin-top: 5px;">
+							  		 <div class="col-sm-6" style="margin-left:-50px;margin-top: 5px;">
 										  	{!!Form::text('buscarLugares',null, ['class' => 'form-control input-lg' , 'id' => 'buscarLugares','autocomplete' => 'off','placeholder' => 'Buscar'])!!}	
 										  <div id="carga" style="position: absolute;z-index: 12;text-align: right;"> </div>
 											  <div id="lugares">
 													 
-														<ul class="list-group" id="lista" style="position: absolute;width: 470px;margin-top: 0px;z-index:10;background: red;font-size:12px; ">
+														<ul class="list-group" id="lista" style="position: absolute;width: 570px;margin-top: 0px;z-index:10;background: red;font-size:12px; ">
 															
 														</ul>
 													

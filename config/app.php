@@ -165,7 +165,7 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
         Vinkla\Hashids\HashidsServiceProvider::class,
-
+        Unisharp\Ckeditor\ServiceProvider::class,
 
         /*
          * Package Service Providers...

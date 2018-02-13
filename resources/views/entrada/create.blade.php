@@ -2,51 +2,42 @@
 
 @section('contenido')
 	<div class="panel panel-headline">
-			<div class="panel-heading">
-							<h3 class="panel-title">Agregar usuario </h3>
-			</div>
+			
 			<div class="panel-body">
 				<div class="row">
 					<div class="col-sm-12">
-						{!! Form::open(['route' => ['usuarios.store'] , 'method' => 'POST', 'id' => 'form-crearUsuario', 'class' => 'form-horizontal']) !!}
+						{!! Form::open(['route' => ['entradas.store'] , 'method' => 'POST', 'id' => 'form-crearEntrada', 'class' => 'form-horizontal']) !!}
 
 							{!!  csrf_field() !!}
+
 							  <div class="form-group row">
-							      <label for="" class="col-sm-1 col-form-label">Nombre </label>
+							      <label for="" class="col-sm-1 col-form-label">Título </label>
 
-							      <div class="col-sm-7">
+							      <div class="col-sm-12">
 										
-									{!!Form::text('name',null, ['class' => 'form-control btn-sm' , 'id' => 'nombre','autocomplete' => 'off'])!!}	
+									{!!Form::text('titulo',null, ['class' => 'form-control btn-sm' , 'id' => 'titulo','autocomplete' => 'off'])!!}	
 
 							      </div>
 						    </div>
-
-							<div class="form-group row">
-							      <label for="" class="col-sm-1 col-form-label">Email</label>
-
-							      <div class="col-sm-7">
-							      		{!!Form::email('email',null, ['class' => 'form-control btn-sm' , 'id' => 'email','autocomplete' => 'off'])!!}	
-							      </div>
-						    </div>
-
 						    <div class="form-group row">
-							      <label for="" class="col-sm-1 col-form-label">Contraseña</label>
-
-							      <div class="col-sm-7">
-							      		{!!Form::password('password',null, ['class' => 'form-control' , 'id' => 'password','autocomplete' => 'off'])!!}	
-							      </div>
-						    </div>
-							
-						    <div class="form-group row">
- 								 <label for="" class="col-sm-1 col-form-label">Rol</label>								
+							      <label for="" class="col-sm-1 col-form-label">Categoria</label>								
   								 <div class="col-sm-7">
-									  <select id="role" name="role[]" multiple>
-						                                
-						                </select>
+									 	@foreach ($categoria as $itemp)
+
+							        		<label>
+							        			  <input type="checkbox" name="nombre[]"  value="{{$itemp->id}}"}}>
+							        			  
+							        			   {{ $itemp->nombre}}
+
+							        		</label>
+
+						        		@endforeach
 						          </div>
 
-							 </div>
-
+						    </div>
+						    <div class="form-group row">
+									<textarea class="form-control" id="contenidor" name="contenido"></textarea>
+							</div>
 
 							<div class="form-group" style="text-align: center;">
 								<button type="submit" id="btnEnviarFormulario" class="btn btn-primary">Guardar</button>
@@ -62,8 +53,15 @@
 @stop
 @section('script')
      
- <script type="text/javascript">
- 	
- </script>
-  
+        <script src="{{ asset('vendor/unisharp/laravel-ckeditor/ckeditor.js') }}"></script>
+		<script>
+		
+			CKEDITOR.replace( 'contenido',
+	         {
+	          customConfig : 'config.js',
+	          toolbar : 'simple'
+	          })
+		</script>
+
+		  
 @stop

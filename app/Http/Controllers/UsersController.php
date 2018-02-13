@@ -24,7 +24,7 @@ class UsersController extends Controller
 
     public function index()
     {
-        $Users =User::all();
+        $Users =Categoria::all();
         return view('Users.index' ,["Users" => $Users]);
 
     }

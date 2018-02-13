@@ -8,8 +8,11 @@ use App\Http\Requests;
 use App\Http\Requests\CreateMensageRequest;
 use App\lugar;
 use App\Ubigeo;
+use App\User;
+use App\Categoria;
 use Debugbar;
 use Hashids;
+
 
 class PagesController extends Controller
 {
@@ -168,8 +171,10 @@ class PagesController extends Controller
 
       public function  blog()
      {
-
-     		return view('inicio.blog');
+     		//$usuario=User::find(auth()->user()->id);
+     		$Entradas = DB::table('categorias')
+            ->join('categoria_users', 'categorias.id', '=', 'categoria_users.categoria_id')->paginate(6);
+     		return view('inicio.blog',['Entradas' => $Entradas]);
 
      }
 

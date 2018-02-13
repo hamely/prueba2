@@ -56,4 +56,10 @@ class User extends Authenticatable
     {
         return $this->hasMany(Mensaje::class);
     }
+
+     public  function usuarios()
+    {
+
+        return $this->belongsToMany(User::class,'categoria_users','user_id','categoria_id')->withPivot('titulo','ruta','contenido');
+    }
 }

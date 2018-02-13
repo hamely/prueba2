@@ -24,18 +24,19 @@
 				     			</tr>
 				     		</thead>
 				     		<tbody>
-				     			@foreach( $categoria as $item)
+				     			@foreach( $entradas as $item)
 				     				<tr>
-								        <td>John</td>
-								        <td>Doe</td>
-								        <td>john@example.com</td>
-								        <td>john@example.com</td>
-								        <td>john@example.com</td>
+								        <td> {{ $item->pivot->titulo}}</td>
+								        <td> {!! substr($item->pivot->contenido,0,30)  !!} </td>
+								        <td>{{$item->pivot->ruta}}</td>
+								        <td><a href="">ver</a></td>
+								        <td>{{$item->name}}</td>
 								        <td><button type="button" class="btn btn-primary">Editar</button></td>
 								     </tr>
 								@endforeach
 				     		</tbody>
 				     	</table>
+				     	{!! $entradas->links() !!}
 	     	</div>
 		</div>
 	</div>

@@ -3,18 +3,15 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-
+use App\User;
 class Categoria extends Model
 {
     protected $table = 'categorias';
 
-    protected $fillable = [
-   			 'nombre', 'descripcion',
-		 ];
 
      public  function user()
     {
 
-        return $this->belongsToMany(User::class,'entradas','categoria_id','user_id');
+        return $this->belongsToMany(User::class,'categoria_users','categoria_id','user_id')->withPivot('titulo','ruta','contenido');
     }
 }
