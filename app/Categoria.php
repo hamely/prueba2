@@ -12,6 +12,6 @@ class Categoria extends Model
      public  function user()
     {
 
-        return $this->belongsToMany(User::class,'categoria_users','categoria_id','user_id')->withPivot('titulo','ruta','contenido');
+        return $this->belongsToMany(User::class,'categoria_users','categoria_id','user_id')->withPivot('id','titulo','ruta','contenido');
     }
 }

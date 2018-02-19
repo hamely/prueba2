@@ -6,44 +6,79 @@
 			<div class="panel-body">
 			
 				<div class="row">
-						<div style="background: #b0b4c7;margin: 2px;">
+						<div style="margin: 2px;">
 							
-							<a href="{{ route('entradas.create')}}" class="btn btn-primary">
-							     						Agregar
-							</a>
+						  	 <div class="row">
+							    <div class="col-sm-3" style="margin-right: -150px;">
+							    	<a href="{{ route('entradas.create')}}" class="btn btn-primary">
+							     						Añadir Nueva
+									</a>
+							    </div>
+							    <div class="col-sm-3" >
+								      <select class="form-control">
+								      		<option value="" disabled selected>Cuscar Categoria</option>
+								      	@foreach($categoria as $itemp)
+									        <option value=""> {{$itemp->nombre}}</option>
+									    @endforeach
+								      </select>
+							    </div>
+							    <div class="col-sm-3" style="margin-right: -140px;">
+							    	<a href="" class="btn btn-light">
+							     						Filtrar
+									</a>
+							    </div>
+							    
+						  </div>
+
 						</div>
 				     	<table   class="table table-hover">
 				     		<thead>
-				     			<tr>
+				     			<tr style="background: #25a929;">
 				     				<th>Titulo</th>
-				     				<th>Contenido</th>
 				     				<th>Ruta</th>
 				     				<th>Categoria</th>
 				     				<th>Usuario</th>
-				     				<th>Acción</th>
 				     			</tr>
 				     		</thead>
 				     		<tbody>
+
 				     			@foreach( $entradas as $item)
-				     				<tr>
-								        <td> {{ $item->pivot->titulo}}</td>
-								        <td> {!! substr($item->pivot->contenido,0,30)  !!} </td>
-								        <td>{{$item->pivot->ruta}}</td>
-								        <td><a href="">ver</a></td>
+				     				<tr >
+								        <td> 
+								        	{{ $item->titulo}}</br>
+								        	<a href=""  class="clEntrada" id="{{$item->id}}">ver Imagenes</a> 
+								        	<button type='button' class='editar btn btn-primary btn-xs' onclick="paginaAjaxDialogo(null, 'Imagenes Entrada',{idCategoriaUsers:'{{$item->id}}'},'{{route('entradasImagen.index')}}', 'GET', null, null, false, true)"><i class='ace-icon fa fa-pencil bigger-120'></i></button>
+								        </td>
+								        <td>{{$item->ruta}}</td>
+								        <td>{{$item->nombre}}</a></td>
 								        <td>{{$item->name}}</td>
-								        <td><button type="button" class="btn btn-primary">Editar</button></td>
 								     </tr>
 								@endforeach
 				     		</tbody>
 				     	</table>
 				     	{!! $entradas->links() !!}
 	     	</div>
+	     	
+
 		</div>
 	</div>
 	    
 @stop
 @section('script')
 
-  @include('error.mensajeError');
+  @include('error.mensajeError')
 
+	<script>
+		$(document).ready(function()
+		{
+			 $(".clEntrada").click(function() {
+			 	var idCategoriaUsers=$(this).attr('id');
+			 	alert(idCategoriaUsers);
+			 	event.preventDefault();
+
+		       
+		});
+				
+	});
+	</script>
 @stop

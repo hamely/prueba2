@@ -31,6 +31,7 @@ Route::get('clientes/',['as' => 'clientes', 'uses' => 'PagesController@clientes'
 
 Route::get('blog/',['as' => 'blog', 'uses' => 'PagesController@blog']);
 Route::resource('entradas' , 'EntradaController');
+Route::resource('entradasImagen' , 'EntradaImagenController');
 
 
 //para temlos templos 

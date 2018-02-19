@@ -6,7 +6,7 @@
 			<div class="panel-body">
 				<div class="row">
 					<div class="col-sm-12">
-						{!! Form::open(['route' => ['entradas.store'] , 'method' => 'POST', 'id' => 'form-crearEntrada', 'class' => 'form-horizontal']) !!}
+						{!! Form::open(['route' => ['entradas.store'] , 'method' => 'POST', 'id' => 'form-crearEntrada', 'class' => 'form-horizontal','enctype' => 'multipart/form-data' ]) !!}
 
 							{!!  csrf_field() !!}
 
@@ -38,6 +38,11 @@
 						    <div class="form-group row">
 									<textarea class="form-control" id="contenidor" name="contenido"></textarea>
 							</div>
+							<div class="form-group row">
+				                <label>Subir Imagen destacada</label>
+				                <input type="file" name="imagen[]" id="imagen" multiple>
+				                <p class="help-block">Subir imagen</p>
+				            </div>
 
 							<div class="form-group" style="text-align: center;">
 								<button type="submit" id="btnEnviarFormulario" class="btn btn-primary">Guardar</button>
@@ -59,8 +64,11 @@
 			CKEDITOR.replace( 'contenido',
 	         {
 	          customConfig : 'config.js',
-	          toolbar : 'simple'
-	          })
+	          toolbar : 'simple',
+	          filebrowserBrowseUrl: '/public/php/fileupload.php',
+    		 filebrowserUploadUrl: '/public/php/fileupload.php'
+	          });
+			
 		</script>
 
 		  

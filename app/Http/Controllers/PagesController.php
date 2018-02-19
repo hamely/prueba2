@@ -173,7 +173,7 @@ class PagesController extends Controller
      {
      		//$usuario=User::find(auth()->user()->id);
      		$Entradas = DB::table('categorias')
-            ->join('categoria_users', 'categorias.id', '=', 'categoria_users.categoria_id')->paginate(6);
+            ->join('categoria_users', 'categorias.id', '=', 'categoria_users.categoria_id')->orderBy('categoria_users.id', 'DESC')->paginate(6);
      		return view('inicio.blog',['Entradas' => $Entradas]);
 
      }

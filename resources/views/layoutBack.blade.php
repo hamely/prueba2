@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="{{ asset("css/demo.css")}}">
         <link rel="stylesheet"  href="{{ asset("css/app.css") }}"> 
         <link rel="stylesheet"  href="{{ asset("css/toastr/toastr.css") }}"> 
+        
         <style type="text/css">
             .error{
                 color: red;
@@ -121,7 +122,6 @@
         <script type="text/javascript" src="{{ asset("js/jquery.slimscroll.min.js") }}"></script>
         <script type="text/javascript" src="{{ asset("js/klorofil-common.js") }}"></script>
         <script type="text/javascript" src="{{ asset("js/toastr/toastr.min.js") }}"></script>
-
         <script type="text/javascript" src="{{ asset("js/Helper/jsHelper.js") }}"></script>
 
         @yield('script')
