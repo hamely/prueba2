@@ -159,8 +159,8 @@
                 <div class="row">
                     <div class="col-md-6">
                         <dt>CONTÁCTENOS</dt>
-                         <dt>Dirección: </dt><p>Av. Tamburco
-						 <dt>Celular:</dt> 945773633</p>
+                         <dt>Correo</dt>spaziour@gmail.com<p>
+						 <dt>Celular:</dt> 942373872</p>
                     </div>
                     <div class="col-md-6">
 
