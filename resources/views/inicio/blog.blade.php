@@ -43,12 +43,12 @@
                                                             <a href="#">
                                                                 <i class="icon-link"></i>
                                                             </a>
-                                                            <a href="{{URL::asset('/img/content/shop2/01.jpg')}}" data-lightbox="fancybox" data-fancybox-group="gallery">
+                                                            <a href="{{URL::asset('/img/entrada/19.png')}}" data-lightbox="fancybox" data-fancybox-group="gallery">
                                                                 <i class="icon-magnifier"></i>
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <img class="c-overlay-object img-responsive img-thumbnail" src="{{URL::asset('/img/content/shop2/01.jpg')}}" alt=""> 
+                                                    <img class="c-overlay-object img-responsive img-thumbnail" src="{{URL::asset('/img/entrada/19.png')}}" alt=""> 
                                                 </div>
                                                 <div class="c-body">
                                                     <div class="c-title c-font-bold c-font-uppercase" style="font-size: 10px;">
@@ -96,6 +96,12 @@
                                 <ul class="c-menu c-arrow-dot1 c-theme">
                                     <li>
                                         <a href="#">Php</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Framework </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Angular</a>
                                     </li>
                                     <li>
                                         <a href="#">Laravel</a>
