@@ -107,22 +107,7 @@
                      
                      
                     </ul>
-                    <div class="c-padding-20 c-margin-t-40 c-bg-grey-1 c-bg-img-bottom-right" style="">
-                        <div class="c-content-title-1 c-margin-t-20">
-                            <h3 class="c-font-uppercase c-font-bold">Preguntas</h3>
-                            <div class="c-line-left"></div>
-                            <form action="#">
-                                <div class="input-group input-group-lg c-square">
-                                    <input type="text" class="form-control c-square" placeholder="Ask a question" />
-                                    <span class="input-group-btn">
-                                        <button class="btn c-theme-btn c-btn-square c-btn-uppercase c-font-bold" type="button">Ir!</button>
-                                    </span>
-                                </div>
-                            </form>
-                            <p class="c-font-thin"></p>
-                        </div>
-                    </div>
-                    <!-- END: LAYOUT/SIDEBARS/SHOP-SIDEBAR-MENU -->
+                                        <!-- END: LAYOUT/SIDEBARS/SHOP-SIDEBAR-MENU -->
                 </div>
                 <div class="c-layout-sidebar-content ">
                     <!-- BEGIN: PAGE CONTENT -->
