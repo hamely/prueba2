@@ -6,18 +6,18 @@
  <div class="c-layout-breadcrumbs-1 c-fonts-uppercase c-fonts-bold c-bordered c-bordered-both" style="background:#ddd;margin-top: 90px;">
                 <div class="container">
                     <div class="c-page-title c-pull-left">
-                        <h3 class="c-font-uppercase c-font-sbold">Blog Grid View</h3>
+                        <h3 class="c-font-uppercase c-font-sbold"></h3>
                     </div>
                     <ul class="c-page-breadcrumbs c-theme-nav c-pull-right c-fonts-regular">
                         <li>
-                            <a href="#">Pages</a>
+                            <a href="#"></a>
                         </li>
                         <li>/</li>
                         <li>
-                            <a href="page-blog-grid.html">Blog Grid View</a>
+                            <a href="page-blog-grid.html">Cursos</a>
                         </li>
                         <li>/</li>
-                        <li class="c-state_active">Jango Components</li>
+                        <li class="c-state_active"></li>
                     </ul>
                 </div>
             </div>

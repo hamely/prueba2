@@ -10,14 +10,14 @@
                     </div>
                     <ul class="c-page-breadcrumbs c-theme-nav c-pull-right c-fonts-regular">
                         <li>
-                            <a href="#">Components</a>
+                            <a href="#"></a>
                         </li>
                         <li>/</li>
                         <li>
-                            <a href="javascript:;">Jango Components</a>
+                            <a href="javascript:;">Clientes</a>
                         </li>
                         <li>/</li>
-                        <li class="c-state_active">About Blocks</li>
+                        <li class="c-state_active"></li>
                     </ul>
                 </div>
             </div>

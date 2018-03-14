@@ -39,186 +39,52 @@
                     </div>
                     <ul class="c-sidebar-menu collapse " id="sidebar-menu-1">
                         <li class="c-dropdown c-active c-open">
-                            <a href="javascript:;" class="c-toggler">Active Section
+                            <a href="javascript:;" class="c-toggler">Páginas web
                                 <span class="c-arrow"></span>
                             </a>
                             <ul class="c-dropdown-menu">
                                 <li class="c-active">
-                                    <a href="#">Active Link</a>
+                                    <a href="#">Dirección Regional Agraria</a>
                                 </li>
                                 <li>
-                                    <a href="#">Example Link</a>
+                                    <a href="#">Beneficencia Pública Abancay</a>
                                 </li>
                                 <li>
-                                    <a href="#">Example Link</a>
+                                    <a href="#">Radio Mautri</a>
                                 </li>
                                 <li>
-                                    <a href="#">Example Link</a>
+                                    <a href="#">Diario Chaski</a>
+                                </li>
+                                <li>
+                                    <a href="#">Gestel comunicaciones</a>
+                                </li>
+                                <li>
+                                    <a href="#">Radio Armonía</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="c-dropdown">
-                            <a href="javascript:;" class="c-toggler">Sub Menu Section
+                            <a href="javascript:;" class="c-toggler">Software
                                 <span class="c-arrow"></span>
                             </a>
                             <ul class="c-dropdown-menu">
                                 <li>
-                                    <a href="#">Example Link</a>
-                                </li>
-                                <li class="c-dropdown">
-                                    <a href="javascript:;" class="c-toggler">Sub Menu
-                                        <span class="c-arrow"></span>
-                                    </a>
-                                    <ul class="c-dropdown-menu">
-                                        <li>
-                                            <a href="#">Example Link</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Example Link</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Example Link</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Example Link</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Example Link</a>
-                                        </li>
-                                    </ul>
+                                    <a href="#">Sistema de administración de cementerio</a>
                                 </li>
                                 <li>
-                                    <a href="#">Example Link</a>
-                                </li>
-                                <li class="c-dropdown">
-                                    <a href="javascript:;" class="c-toggler">Sub Menu
-                                        <span class="c-arrow"></span>
-                                    </a>
-                                    <ul class="c-dropdown-menu">
-                                        <li>
-                                            <a href="#">Example Link</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Example Link</a>
-                                        </li>
-                                        <li class="c-dropdown">
-                                            <a href="javascript:;" class="c-toggler">Sub Menu
-                                                <span class="c-arrow"></span>
-                                            </a>
-                                            <ul class="c-dropdown-menu">
-                                                <li>
-                                                    <a href="#">Example Link</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Example Link</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Example Link</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Example Link</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Example Link</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">Example Link</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Example Link</a>
-                                        </li>
-                                    </ul>
+                                    <a href="#">Sistema de ventas</a>
                                 </li>
                                 <li>
-                                    <a href="#">Example Link</a>
+                                    <a href="#">Sistema de seguimiento de proyectos</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="c-dropdown">
-                            <a href="javascript:;" class="c-toggler">Section With Icons
+                            <a href="javascript:;" class="c-toggler">Logos
                                 <span class="c-arrow"></span>
                             </a>
-                            <ul class="c-dropdown-menu">
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-social-dribbble"></i> Example Link</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-bell"></i> Example Link</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-bubbles"></i> Example Link</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-user"></i> Example Link</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="c-dropdown">
-                            <a href="javascript:;" class="c-toggler">Expanded Section
-                                <span class="c-arrow"></span>
-                            </a>
-                            <ul class="c-dropdown-menu">
-                                <li>
-                                    <a href="#">Example Link</a>
-                                </li>
-                                <li>
-                                    <a href="#">Example Link</a>
-                                </li>
-                                <li>
-                                    <a href="#">Example Link</a>
-                                </li>
-                                <li>
-                                    <a href="#">Example Link</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="c-dropdown">
-                            <a href="javascript:;">Arrow Toggler
-                                <span class="c-arrow c-toggler"></span>
-                            </a>
-                            <ul class="c-dropdown-menu">
-                                <li>
-                                    <a href="#">Example Link</a>
-                                </li>
-                                <li>
-                                    <a href="#">Example Link</a>
-                                </li>
-                                <li>
-                                    <a href="#">Example Link</a>
-                                </li>
-                                <li>
-                                    <a href="#">Example Link</a>
-                                </li>
-                                <li class="c-dropdown">
-                                    <a href="javascript:;">Sub Menu
-                                        <span class="c-arrow c-toggler"></span>
-                                    </a>
-                                    <ul class="c-dropdown-menu">
-                                        <li>
-                                            <a href="#">Example Link</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Example Link</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Example Link</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Example Link</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Example Link</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
+                          
+                        </li>                     
                     </ul>
                     <div class="c-padding-20 c-margin-t-40 c-bg-grey-1 c-bg-img-bottom-right" style="">
                         <div class="c-content-title-1 c-margin-t-20">
@@ -242,7 +108,7 @@
                     <!-- BEGIN: CONTENT/SHOPS/SHOP-RESULT-FILTER-1 -->
                     <div class="c-shop-result-filter-1 clearfix form-inline">
                         <div class="c-filter">
-                            <label class="control-label c-font-16">Show:</label>
+                            <label class="control-label c-font-16">Mostrar:</label>
                             <select class="form-control c-square c-theme c-input">
                                 <option value="#?limit=24" selected="selected">24</option>
                                 <option value="#?limit=25">25</option>
@@ -252,17 +118,17 @@
                             </select>
                         </div>
                         <div class="c-filter">
-                            <label class="control-label c-font-16">Sort&nbsp;By:</label>
+                        <label class="control-label c-font-16">Ordenar&nbsp;Por:</label>
                             <select class="form-control c-square c-theme c-input">
                                 <option value="#?sort=p.sort_order&amp;order=ASC" selected="selected">Default</option>
-                                <option value="#?sort=pd.name&amp;order=ASC">Name (A - Z)</option>
-                                <option value="#?sort=pd.name&amp;order=DESC">Name (Z - A)</option>
-                                <option value="#?sort=p.price&amp;order=ASC">Price (Low &gt; High)</option>
-                                <option value="#?sort=p.price&amp;order=DESC" selected>Price (High &gt; Low)</option>
-                                <option value="#?sort=rating&amp;order=DESC">Rating (Highest)</option>
-                                <option value="#?sort=rating&amp;order=ASC">Rating (Lowest)</option>
-                                <option value="#?sort=p.model&amp;order=ASC">Model (A - Z)</option>
-                                <option value="#?sort=p.model&amp;order=DESC">Model (Z - A)</option>
+                                <option value="#?sort=pd.name&amp;order=ASC">Nombre (A - Z)</option>
+                                <option value="#?sort=pd.name&amp;order=DESC">Nombre (Z - A)</option>
+                                <option value="#?sort=p.price&amp;order=ASC">Precio (Bajos &gt; Altos)</option>
+                                <option value="#?sort=p.price&amp;order=DESC" selected>Precio (Altos &gt; Bajos)</option>
+                                <option value="#?sort=rating&amp;order=DESC">Rating (Altos)</option>
+                                <option value="#?sort=rating&amp;order=ASC">Rating (Bajos)</option>
+                                <option value="#?sort=p.model&amp;order=ASC">Modelos (A - Z)</option>
+                                <option value="#?sort=p.model&amp;order=DESC">Modelos (Z - A)</option>
                             </select>
                         </div>
                     </div>
@@ -284,16 +150,16 @@
                                     </div>
                                     <div class="c-info">
                                         <p class="c-title c-font-16 c-font-slim">Radio Mautri</p>
-                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
-                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
+                                        <p class="c-price c-font-14 c-font-slim"> &nbsp;
+                                            <span class="c-font-14 c-font-line-through c-font-red"></span>
                                         </p>
                                     </div>
                                     <div class="btn-group btn-group-justified" role="group">
                                         <div class="btn-group c-border-top" role="group">
-                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
+                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Más detalles</a>
                                         </div>
                                         <div class="btn-group c-border-left c-border-top" role="group">
-                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
+                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -310,16 +176,16 @@
                                     </div>
                                     <div class="c-info">
                                         <p class="c-title c-font-16 c-font-slim">Modelados 3D</p>
-                                        <p class="c-price c-font-14 c-font-slim">$0 &nbsp;
-                                            <span class="c-font-14 c-font-line-through c-font-red">$0</span>
+                                        <p class="c-price c-font-14 c-font-slim"> &nbsp;
+                                            <span class="c-font-14 c-font-line-through c-font-red"></span>
                                         </p>
                                     </div>
                                     <div class="btn-group btn-group-justified" role="group">
                                         <div class="btn-group c-border-top" role="group">
-                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
+                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Más detalles</a>
                                         </div>
                                         <div class="btn-group c-border-left c-border-top" role="group">
-                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
+                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -338,16 +204,16 @@
                                     </div>
                                     <div class="c-info">
                                         <p class="c-title c-font-16 c-font-slim">Dirección Regional Agraria de Apurímac</p>
-                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
-                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
+                                        <p class="c-price c-font-14 c-font-slim"> &nbsp;
+                                            <span class="c-font-14 c-font-line-through c-font-red"></span>
                                         </p>
                                     </div>
                                     <div class="btn-group btn-group-justified" role="group">
                                         <div class="btn-group c-border-top" role="group">
-                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
+                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Más detalles</a>
                                         </div>
                                         <div class="btn-group c-border-left c-border-top" role="group">
-                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
+                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -364,16 +230,16 @@
                                     </div>
                                     <div class="c-info">
                                         <p class="c-title c-font-16 c-font-slim">Sociedad de Beneficencia Pública de Abancay</p>
-                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
-                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
+                                        <p class="c-price c-font-14 c-font-slim"> &nbsp;
+                                            <span class="c-font-14 c-font-line-through c-font-red"></span>
                                         </p>
                                     </div>
                                     <div class="btn-group btn-group-justified" role="group">
                                         <div class="btn-group c-border-top" role="group">
-                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
+                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Más detalles</a>
                                         </div>
                                         <div class="btn-group c-border-left c-border-top" role="group">
-                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
+                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -394,16 +260,16 @@
                                     </div>
                                     <div class="c-info">
                                         <p class="c-title c-font-16 c-font-slim">Diario Chaski</p>
-                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
-                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
+                                        <p class="c-price c-font-14 c-font-slim"> &nbsp;
+                                            <span class="c-font-14 c-font-line-through c-font-red"></span>
                                         </p>
                                     </div>
                                     <div class="btn-group btn-group-justified" role="group">
                                         <div class="btn-group c-border-top" role="group">
-                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
+                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Más detalles</a>
                                         </div>
                                         <div class="btn-group c-border-left c-border-top" role="group">
-                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
+                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -421,16 +287,16 @@
                                     </div>
                                     <div class="c-info">
                                         <p class="c-title c-font-16 c-font-slim">Gestel Comunicaciones</p>
-                                        <p class="c-price c-font-14 c-font-slim">$548 &nbsp;
-                                            <span class="c-font-14 c-font-line-through c-font-red">$600</span>
+                                        <p class="c-price c-font-14 c-font-slim"> &nbsp;
+                                            <span class="c-font-14 c-font-line-through c-font-red"></span>
                                         </p>
                                     </div>
                                     <div class="btn-group btn-group-justified" role="group">
                                         <div class="btn-group c-border-top" role="group">
-                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Wishlist</a>
+                                            <a href="shop-product-wishlist.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Más detalles</a>
                                         </div>
                                         <div class="btn-group c-border-left c-border-top" role="group">
-                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product">Cart</a>
+                                            <a href="shop-cart.html" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-square c-font-grey-3 c-font-white-hover c-bg-red-2-hover c-btn-product"></a>
                                         </div>
                                     </div>
                                 </div>

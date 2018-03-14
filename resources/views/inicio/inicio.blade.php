@@ -504,36 +504,13 @@
 							                                    <img src="{{URL::asset('/img/content/client-logos/logo5.jpg')}}" alt="" />
 							                                </a>
 							                            </div>
-							                            <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
+														<div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
 							                                <a href="#">
 							                                    <img src="{{URL::asset('/img/content/client-logos/logo6.jpg')}}" alt="" />
 							                                </a>
 							                            </div>
-							                            <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
-							                                <a href="#">
-							                                    <img src="{{URL::asset('/img/content/client-logos/logo7.jpg')}}" alt="" />
-							                                </a>
-							                            </div>
-							                            <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
-							                                <a href="#">
-							                                    <img src="{{URL::asset('/img/content/client-logos/logo8.jpg')}}" alt="" />
-							                                </a>
-							                            </div>
-							                            <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
-							                                <a href="#">
-							                                    <img src="{{URL::asset('/img/content/client-logos/logo9.jpg')}}" alt="" />
-							                                </a>
-							                            </div>
-							                            <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
-							                                <a href="#">
-							                                    <img src="{{URL::asset('/img/content/client-logos/logo10.jpg')}}" alt="" />
-							                                </a>
-							                            </div>
-							                            <div class="item" style="margin-top: 60px; border: solid 5px #1cad99;transition: border-width 0.6s linear; ">
-							                                <a href="#">
-							                                    <img src="{{URL::asset('/img/content/client-logos/logo11.jpg')}}" alt="" />
-							                                </a>
-							                            </div>			
+							                     
+							                        			
 																
 							                        </div>
 
