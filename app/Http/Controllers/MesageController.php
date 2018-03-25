@@ -82,7 +82,6 @@ class MesageController extends Controller
             
          });
 
-
          return redirect()->route('mensajes.create')->with('info' , 'Tu mensaje fue recibido');
          //return $request->all;
     }

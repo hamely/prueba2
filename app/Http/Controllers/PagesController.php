@@ -138,7 +138,7 @@ class PagesController extends Controller
         
   		 $lugarLocalizado=Lugar::find(1);
 
-   		return view('inicio.localizacionTemplo',['lugarLocalizado' => $lugarLocalizado]);
+   		 return view('inicio.localizacionTemplo',['lugarLocalizado' => $lugarLocalizado]);
 
     }
 

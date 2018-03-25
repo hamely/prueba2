@@ -15,8 +15,8 @@
 
         <div id="container"></div>
 		<div id="info">
-			<a href="http://spaziour.com/" target="_blank" rel="noopener">spaziour.com</a> Templo Colonial Chuquinga
-			<br /><span class="button" id="preload">cargar</span>
+			<a href="http://spaziour.com/" target="_blank" rel="noopener">spaziour.com</a> 
+			<br/><span class="button" id="preload">Refrescar</span>
 		</div>
 
 		<div id="waitScreen">

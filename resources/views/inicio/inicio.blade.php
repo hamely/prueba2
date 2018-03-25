@@ -316,39 +316,42 @@
 @stop
 @section('contenido')
 
-	<div class="container" style="margin-top:-106px;height: 100px;float: center;background-color:rgba(0,0,0,.65);z-index: 20;position: relative;">
-			<div class="row" style="margin-top: 30px;">
-					<div class="form-group row">
-						  {!! Form::open(['route' => ['templo'] , 'method' => 'GET', 'id' => 'formLugares' ]) !!}
-									 <div class="col-sm-6" style="margin-left:5px;">
-											<span class='3d' style="color:#158c7b;font-weight:bold;font-size:30px;text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,0 3px 0 #bbb, 0 4px 0 #b9b9b9,0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);">
-											Spaziour</span> <span style="color:white;">Encuentra tu proyecto aquí</span>
-									 </div>
-									 {!!  method_field('GET') !!}
-				        				{!!  csrf_field() !!}
-							  		 <div class="col-sm-6" style="margin-left:-50px;margin-top: 5px;">
-										  	{!!Form::text('buscarLugares',null, ['class' => 'form-control input-lg' , 'id' => 'buscarLugares','autocomplete' => 'off','placeholder' => 'Buscar'])!!}	
-										  <div id="carga" style="position: absolute;z-index: 12;text-align: right;"> </div>
-											  <div id="lugares">
-													 
-														<ul class="list-group" id="lista" style="position: absolute;width: 570px;margin-top: 0px;z-index:10;background: red;font-size:12px; ">
-															
-														</ul>
-													
-											  </div>
-										  		 
-									</div>	
-									
-							{!! Form::close() !!}
-							
-					</div>
-			  </div>
-		 </div>
 
 		  <div class="container">	
 
-	                    <div class="c-content-feature-10" style="margin-top: 40px;">
-	                        
+	                    <div class="c-content-feature-10" style="">
+	                     <div class="container-fluid" style=" margin-top:-20px;height: 80px;background-color:rgba(0,0,0,.65);z-index: 20;position: relative;">
+		                        <div class="row">
+							  {!! Form::open(['route' => ['templo'] , 'method' => 'GET', 'id' => 'formLugares' ]) !!}
+										  <div class="col-xs-12 col-md-4">
+												<span class='3d' style="color:#158c7b;font-weight:bold;font-size:30px;text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,0 3px 0 #bbb, 0 4px 0 #b9b9b9,0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);">
+												Spaziour</span> <span style="color:white;">Lugares Turísticos</span>
+										 </div>
+										 {!!  method_field('GET') !!}
+					        				{!!  csrf_field() !!}
+								  		  <div class="col-xs-12 col-md-7">
+											  	<div class="input-group" style="padding: 5px;">
+												{!!Form::text('buscarLugares',null, ['class' => 'form-control c-square c-theme-border' , 'id' => 'buscarLugares','autocomplete' => 'off','placeholder' => 'Templos Coloniales...'])!!}
+				                                    <span class="input-group-btn">
+				                                        <button class="btn c-theme-btn c-theme-border c-btn-square" type="button">Buscar</button>
+				                                    </span>
+		                               		 </div>  
+
+											  <div id="carga" style="position: absolute;z-index: 12;text-align: right;"> </div>
+												  <div id="lugares">
+														 
+															<ul class="list-group" id="lista" style="position: absolute;width: 570px;margin-top: 0px;z-index:10;background: red;font-size:12px; ">
+																
+															</ul>
+														
+												  </div>
+											  		 
+										</div>	
+										
+									{!! Form::close() !!}
+									
+								  </div>
+							  </div>
 	                        <div class="c-content-title-1">
 	                            <h3 class="c-font-uppercase c-center c-font-bold">Templo y lugares Turisticos 3D</h3>
 	                            <div class="c-line-center c-theme-bg"></div>
